@@ -1,0 +1,4085 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-01-25T18:31:20</date>
+  <millis>1516885280030</millis>
+  <sequence>6</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Load saved settings: Firmware:NodeMCU</message>
+</record>
+<record>
+  <date>2018-01-25T18:31:20</date>
+  <millis>1516885280046</millis>
+  <sequence>7</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Snippets: loading...</message>
+</record>
+<record>
+  <date>2018-01-25T18:31:20</date>
+  <millis>1516885280046</millis>
+  <sequence>8</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Snippets load: Success.</message>
+</record>
+<record>
+  <date>2018-01-25T18:31:20</date>
+  <millis>1516885280109</millis>
+  <sequence>9</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Set new color theme: Success.</message>
+</record>
+<record>
+  <date>2018-01-25T18:31:20</date>
+  <millis>1516885280124</millis>
+  <sequence>10</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Load saved settings: DONE.</message>
+</record>
+<record>
+  <date>2018-01-25T18:31:20</date>
+  <millis>1516885280124</millis>
+  <sequence>11</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Snippets: loading...</message>
+</record>
+<record>
+  <date>2018-01-25T18:31:20</date>
+  <millis>1516885280124</millis>
+  <sequence>12</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Snippets load: Success.</message>
+</record>
+<record>
+  <date>2018-01-25T18:31:20</date>
+  <millis>1516885280374</millis>
+  <sequence>13</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Scan system...</message>
+</record>
+<record>
+  <date>2018-01-25T18:31:20</date>
+  <millis>1516885280405</millis>
+  <sequence>14</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>found COM9</message>
+</record>
+<record>
+  <date>2018-01-25T18:31:20</date>
+  <millis>1516885280405</millis>
+  <sequence>15</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>found last saved serial port COM10</message>
+</record>
+<record>
+  <date>2018-01-25T18:31:20</date>
+  <millis>1516885280405</millis>
+  <sequence>16</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Scan done.</message>
+</record>
+<record>
+  <date>2018-01-25T18:31:49</date>
+  <millis>1516885309639</millis>
+  <sequence>17</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Serial port COM10 save as default.</message>
+</record>
+<record>
+  <date>2018-01-25T18:31:49</date>
+  <millis>1516885309639</millis>
+  <sequence>18</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Baud rate 115200 save as default.</message>
+</record>
+<record>
+  <date>2018-01-25T18:31:49</date>
+  <millis>1516885309639</millis>
+  <sequence>19</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Try to open port COM10, baud 115200, 8N1</message>
+</record>
+<record>
+  <date>2018-01-25T18:31:49</date>
+  <millis>1516885309724</millis>
+  <sequence>20</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Open port COM10 - Success.</message>
+</record>
+<record>
+  <date>2018-01-25T18:32:18</date>
+  <millis>1516885338016</millis>
+  <sequence>21</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>jssc.SerialPortException: Port name - COM10; Method name - setEventsMask(); Exception type - Can't set mask.</message>
+</record>
+<record>
+  <date>2018-01-25T18:32:18</date>
+  <millis>1516885338016</millis>
+  <sequence>22</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Close port COM10 - unknown error.</message>
+</record>
+<record>
+  <date>2018-01-25T18:32:19</date>
+  <millis>1516885339438</millis>
+  <sequence>23</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Serial port COM10 save as default.</message>
+</record>
+<record>
+  <date>2018-01-25T18:32:19</date>
+  <millis>1516885339438</millis>
+  <sequence>24</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Baud rate 115200 save as default.</message>
+</record>
+<record>
+  <date>2018-01-25T18:32:19</date>
+  <millis>1516885339438</millis>
+  <sequence>25</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Try to open port COM10, baud 115200, 8N1</message>
+</record>
+<record>
+  <date>2018-01-25T18:32:19</date>
+  <millis>1516885339438</millis>
+  <sequence>26</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>jssc.SerialPortException: Port name - COM10; Method name - openPort(); Exception type - Port not found.</message>
+</record>
+<record>
+  <date>2018-01-25T18:32:19</date>
+  <millis>1516885339626</millis>
+  <sequence>27</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Serial port COM10 save as default.</message>
+</record>
+<record>
+  <date>2018-01-25T18:32:19</date>
+  <millis>1516885339626</millis>
+  <sequence>28</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Baud rate 115200 save as default.</message>
+</record>
+<record>
+  <date>2018-01-25T18:32:19</date>
+  <millis>1516885339641</millis>
+  <sequence>29</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Try to open port COM10, baud 115200, 8N1</message>
+</record>
+<record>
+  <date>2018-01-25T18:32:19</date>
+  <millis>1516885339641</millis>
+  <sequence>30</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>jssc.SerialPortException: Port name - COM10; Method name - openPort(); Exception type - Port not found.</message>
+</record>
+<record>
+  <date>2018-01-25T18:32:19</date>
+  <millis>1516885339829</millis>
+  <sequence>31</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Serial port COM10 save as default.</message>
+</record>
+<record>
+  <date>2018-01-25T18:32:19</date>
+  <millis>1516885339829</millis>
+  <sequence>32</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Baud rate 115200 save as default.</message>
+</record>
+<record>
+  <date>2018-01-25T18:32:19</date>
+  <millis>1516885339829</millis>
+  <sequence>33</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Try to open port COM10, baud 115200, 8N1</message>
+</record>
+<record>
+  <date>2018-01-25T18:32:19</date>
+  <millis>1516885339829</millis>
+  <sequence>34</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>jssc.SerialPortException: Port name - COM10; Method name - openPort(); Exception type - Port not found.</message>
+</record>
+<record>
+  <date>2018-01-25T18:32:22</date>
+  <millis>1516885342102</millis>
+  <sequence>35</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Scan system...</message>
+</record>
+<record>
+  <date>2018-01-25T18:32:22</date>
+  <millis>1516885342102</millis>
+  <sequence>36</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>found COM9</message>
+</record>
+<record>
+  <date>2018-01-25T18:32:22</date>
+  <millis>1516885342102</millis>
+  <sequence>37</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Scan done.</message>
+</record>
+<record>
+  <date>2018-01-25T18:32:27</date>
+  <millis>1516885347067</millis>
+  <sequence>38</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Scan system...</message>
+</record>
+<record>
+  <date>2018-01-25T18:32:27</date>
+  <millis>1516885347067</millis>
+  <sequence>39</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>found COM9</message>
+</record>
+<record>
+  <date>2018-01-25T18:32:27</date>
+  <millis>1516885347067</millis>
+  <sequence>40</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>found last saved serial port COM10</message>
+</record>
+<record>
+  <date>2018-01-25T18:32:27</date>
+  <millis>1516885347067</millis>
+  <sequence>41</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Scan done.</message>
+</record>
+<record>
+  <date>2018-01-25T18:32:28</date>
+  <millis>1516885348308</millis>
+  <sequence>42</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Serial port COM10 save as default.</message>
+</record>
+<record>
+  <date>2018-01-25T18:32:28</date>
+  <millis>1516885348308</millis>
+  <sequence>43</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Baud rate 115200 save as default.</message>
+</record>
+<record>
+  <date>2018-01-25T18:32:28</date>
+  <millis>1516885348308</millis>
+  <sequence>44</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Try to open port COM10, baud 115200, 8N1</message>
+</record>
+<record>
+  <date>2018-01-25T18:32:28</date>
+  <millis>1516885348308</millis>
+  <sequence>45</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Open port COM10 - Success.</message>
+</record>
+<record>
+  <date>2018-01-25T18:34:58</date>
+  <millis>1516885498527</millis>
+  <sequence>46</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>DataSender: start "Smart Mode"</message>
+</record>
+<record>
+  <date>2018-01-25T18:34:58</date>
+  <millis>1516885498527</millis>
+  <sequence>47</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>SendToESP: Starting...</message>
+</record>
+<record>
+  <date>2018-01-25T18:34:58</date>
+  <millis>1516885498637</millis>
+  <sequence>48</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>0</message>
+</record>
+<record>
+  <date>2018-01-25T18:34:58</date>
+  <millis>1516885498637</millis>
+  <sequence>49</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:print(wifi.sta.status()==wifi.STA_GOTIP)&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:35:01</date>
+  <millis>1516885501426</millis>
+  <sequence>50</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Close port COM10 - Success.</message>
+</record>
+<record>
+  <date>2018-01-25T18:35:01</date>
+  <millis>1516885501613</millis>
+  <sequence>51</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Serial port COM10 save as default.</message>
+</record>
+<record>
+  <date>2018-01-25T18:35:01</date>
+  <millis>1516885501613</millis>
+  <sequence>52</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Baud rate 115200 save as default.</message>
+</record>
+<record>
+  <date>2018-01-25T18:35:01</date>
+  <millis>1516885501613</millis>
+  <sequence>53</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Try to open port COM10, baud 115200, 8N1</message>
+</record>
+<record>
+  <date>2018-01-25T18:35:01</date>
+  <millis>1516885501613</millis>
+  <sequence>54</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Open port COM10 - Success.</message>
+</record>
+<record>
+  <date>2018-01-25T18:35:02</date>
+  <millis>1516885502645</millis>
+  <sequence>55</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Operation done. Duration = 4133 ms</message>
+</record>
+<record>
+  <date>2018-01-25T18:35:02</date>
+  <millis>1516885502645</millis>
+  <sequence>56</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Waiting answer from ESP - Timeout reached. Command aborted.</message>
+</record>
+<record>
+  <date>2018-01-25T18:35:04</date>
+  <millis>1516885504634</millis>
+  <sequence>57</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Operation done. Duration = 6122 ms</message>
+</record>
+<record>
+  <date>2018-01-25T18:35:04</date>
+  <millis>1516885504635</millis>
+  <sequence>58</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Waiting answer from ESP - Timeout reached. Command aborted.</message>
+</record>
+<record>
+  <date>2018-01-25T18:39:47</date>
+  <millis>1516885787438</millis>
+  <sequence>59</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>DataSender: start "Smart Mode"</message>
+</record>
+<record>
+  <date>2018-01-25T18:39:47</date>
+  <millis>1516885787438</millis>
+  <sequence>60</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>SendToESP: Starting...</message>
+</record>
+<record>
+  <date>2018-01-25T18:39:47</date>
+  <millis>1516885787547</millis>
+  <sequence>61</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>0</message>
+</record>
+<record>
+  <date>2018-01-25T18:39:47</date>
+  <millis>1516885787547</millis>
+  <sequence>62</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:print(wifi.sta.status()==wifi.STA_GOTIP)&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:39:51</date>
+  <millis>1516885791251</millis>
+  <sequence>63</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>33</thread>
+  <message>recv:rl lœž| Œlà|Œlìb|Ž‚ì’r’blbŒ</message>
+</record>
+<record>
+  <date>2018-01-25T18:39:51</date>
+  <millis>1516885791282</millis>
+  <sequence>64</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>33</thread>
+  <message>recv:ònnžlnnœâìbpŒŽlrlrlpònà‚lbnâ|ŒìŽœŽbŒònnî lŒŽl`</message>
+</record>
+<record>
+  <date>2018-01-25T18:39:51</date>
+  <millis>1516885791298</millis>
+  <sequence>65</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>33</thread>
+  <message>recv:?nn</message>
+</record>
+<record>
+  <date>2018-01-25T18:39:51</date>
+  <millis>1516885791298</millis>
+  <sequence>66</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>33</thread>
+  <message>recv:l`nrŽ’’n</message>
+</record>
+<record>
+  <date>2018-01-25T18:39:51</date>
+  <millis>1516885791298</millis>
+  <sequence>67</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>33</thread>
+  <message>recv:blŽlpònàrŒœœâàb</message>
+</record>
+<record>
+  <date>2018-01-25T18:39:51</date>
+  <millis>1516885791298</millis>
+  <sequence>68</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>33</thread>
+  <message>recv:nâ|ŒìlŒŽbŒ</message>
+</record>
+<record>
+  <date>2018-01-25T18:39:51</date>
+  <millis>1516885791313</millis>
+  <sequence>69</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>33</thread>
+  <message>recv:ònnî l`</message>
+</record>
+<record>
+  <date>2018-01-25T18:39:51</date>
+  <millis>1516885791313</millis>
+  <sequence>70</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>33</thread>
+  <message>recv:?nn</message>
+</record>
+<record>
+  <date>2018-01-25T18:39:51</date>
+  <millis>1516885791313</millis>
+  <sequence>71</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>33</thread>
+  <message>recv:ŽlnrŽ’’n</message>
+</record>
+<record>
+  <date>2018-01-25T18:39:51</date>
+  <millis>1516885791313</millis>
+  <sequence>72</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>33</thread>
+  <message>recv:‚bl`pònàrŒœœâàllŽppnâ|lìŒŽbŒ</message>
+</record>
+<record>
+  <date>2018-01-25T18:39:51</date>
+  <millis>1516885791313</millis>
+  <sequence>73</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>33</thread>
+  <message>recv:ònnî Ž</message>
+</record>
+<record>
+  <date>2018-01-25T18:39:51</date>
+  <millis>1516885791313</millis>
+  <sequence>74</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>33</thread>
+  <message>recv:l`?nnŽlnrŽ’’n</message>
+</record>
+<record>
+  <date>2018-01-25T18:39:51</date>
+  <millis>1516885791313</millis>
+  <sequence>75</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>33</thread>
+  <message>recv:bìl`r’’n</message>
+</record>
+<record>
+  <date>2018-01-25T18:39:51</date>
+  <millis>1516885791313</millis>
+  <sequence>76</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>33</thread>
+  <message>recv:bìl`</message>
+</record>
+<record>
+  <date>2018-01-25T18:39:51</date>
+  <millis>1516885791345</millis>
+  <sequence>77</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>33</thread>
+  <message>recv:Œâì‚nì</message>
+</record>
+<record>
+  <date>2018-01-25T18:39:51</date>
+  <millis>1516885791360</millis>
+  <sequence>78</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>33</thread>
+  <message>recv:’r‚òn|ìŒlŽprlb’ž|r’lœnà‚nâ l`Œâr’lŒlŒl`Œâr’lìlŒl`Œâr’lŽž Œll`rlŽ‚rlŒ</message>
+</record>
+<record>
+  <date>2018-01-25T18:39:51</date>
+  <millis>1516885791360</millis>
+  <sequence>79</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>33</thread>
+  <message>recv:žâŒbŒŒbp|bp‚ŒŽpžŒŽbìònî€nnâllàâlŽ</message>
+</record>
+<record>
+  <date>2018-01-25T18:39:51</date>
+  <millis>1516885791360</millis>
+  <sequence>80</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>33</thread>
+  <message>recv:ŒlìŽ</message>
+</record>
+<record>
+  <date>2018-01-25T18:39:51</date>
+  <millis>1516885791376</millis>
+  <sequence>81</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>33</thread>
+  <message>recv:lŒŽ€ŒlŽrrl€nü ŒžâŒbllìŽ</message>
+</record>
+<record>
+  <date>2018-01-25T18:39:51</date>
+  <millis>1516885791376</millis>
+  <sequence>82</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>33</thread>
+  <message>recv:b</message>
+</record>
+<record>
+  <date>2018-01-25T18:39:51</date>
+  <millis>1516885791376</millis>
+  <sequence>83</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>33</thread>
+  <message>recv:ŒžâŒblŒbrlr&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:39:51</date>
+  <millis>1516885791407</millis>
+  <sequence>84</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>33</thread>
+  <message>recv:&lt;CR&gt;&lt;LF&gt;NodeMCU custom build by frightanic.com&lt;CR&gt;&lt;LF&gt;	branch: master&lt;CR&gt;&lt;LF&gt;	commit: 5073c199c01d4d7bbbcd0ae1f761ecc4687f7217&lt;CR&gt;&lt;LF&gt;	SSL: true&lt;CR&gt;&lt;LF&gt;	modules: enduser_setup,file,gpio,i2c,mqtt,net,node,sjson,tmr,uart,wifi,tls&lt;CR&gt;&lt;LF&gt; build 	built on: 2018-01-11 12:43&lt;CR&gt;&lt;LF&gt; powered by Lua 5.1.4 on SDK 2.1.0(116b762)&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:39:51</date>
+  <millis>1516885791438</millis>
+  <sequence>85</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>33</thread>
+  <message>Operation done. Duration = 4016 ms</message>
+</record>
+<record>
+  <date>2018-01-25T18:48:29</date>
+  <millis>1516886309404</millis>
+  <sequence>86</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>DataSender: start "Smart Mode"</message>
+</record>
+<record>
+  <date>2018-01-25T18:48:29</date>
+  <millis>1516886309404</millis>
+  <sequence>87</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>SendToESP: Starting...</message>
+</record>
+<record>
+  <date>2018-01-25T18:48:29</date>
+  <millis>1516886309529</millis>
+  <sequence>88</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>0</message>
+</record>
+<record>
+  <date>2018-01-25T18:48:29</date>
+  <millis>1516886309529</millis>
+  <sequence>89</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:print(wifi.sta.status()==wifi.STA_GOTIP)&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:48:30</date>
+  <millis>1516886310561</millis>
+  <sequence>90</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>36</thread>
+  <message>recv:rl lœž| Œlà|Œlìb|Ž‚ì’r’bŒbŒ</message>
+</record>
+<record>
+  <date>2018-01-25T18:48:30</date>
+  <millis>1516886310561</millis>
+  <sequence>91</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>36</thread>
+  <message>recv:ònnž</message>
+</record>
+<record>
+  <date>2018-01-25T18:48:30</date>
+  <millis>1516886310561</millis>
+  <sequence>92</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>36</thread>
+  <message>recv:lnnœâìbpŒŽlrlrl</message>
+</record>
+<record>
+  <date>2018-01-25T18:48:30</date>
+  <millis>1516886310561</millis>
+  <sequence>93</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>36</thread>
+  <message>recv:pònà‚lb</message>
+</record>
+<record>
+  <date>2018-01-25T18:48:30</date>
+  <millis>1516886310561</millis>
+  <sequence>94</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>36</thread>
+  <message>recv:nâ|ŒìŽœŽbŒ</message>
+</record>
+<record>
+  <date>2018-01-25T18:48:30</date>
+  <millis>1516886310561</millis>
+  <sequence>95</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>36</thread>
+  <message>recv:ònnî lŒŽl`</message>
+</record>
+<record>
+  <date>2018-01-25T18:48:30</date>
+  <millis>1516886310592</millis>
+  <sequence>96</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>36</thread>
+  <message>recv:?nn</message>
+</record>
+<record>
+  <date>2018-01-25T18:48:30</date>
+  <millis>1516886310592</millis>
+  <sequence>97</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>36</thread>
+  <message>recv:l`nrŽ’’n</message>
+</record>
+<record>
+  <date>2018-01-25T18:48:30</date>
+  <millis>1516886310608</millis>
+  <sequence>98</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>36</thread>
+  <message>recv:blŽlpònàrŒœœâàb</message>
+</record>
+<record>
+  <date>2018-01-25T18:48:30</date>
+  <millis>1516886310608</millis>
+  <sequence>99</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>36</thread>
+  <message>recv:nâ|ŒìlŒŽbŒ</message>
+</record>
+<record>
+  <date>2018-01-25T18:48:30</date>
+  <millis>1516886310608</millis>
+  <sequence>100</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>36</thread>
+  <message>recv:ònnî l`</message>
+</record>
+<record>
+  <date>2018-01-25T18:48:30</date>
+  <millis>1516886310608</millis>
+  <sequence>101</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>36</thread>
+  <message>recv:?nn</message>
+</record>
+<record>
+  <date>2018-01-25T18:48:30</date>
+  <millis>1516886310608</millis>
+  <sequence>102</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>36</thread>
+  <message>recv:ŽlnrŽ’’n</message>
+</record>
+<record>
+  <date>2018-01-25T18:48:30</date>
+  <millis>1516886310608</millis>
+  <sequence>103</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>36</thread>
+  <message>recv:‚bl`pònàrŒœœâàllŽppnâ|lìŒŽbŒ</message>
+</record>
+<record>
+  <date>2018-01-25T18:48:30</date>
+  <millis>1516886310608</millis>
+  <sequence>104</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>36</thread>
+  <message>recv:ònnî Ž</message>
+</record>
+<record>
+  <date>2018-01-25T18:48:30</date>
+  <millis>1516886310608</millis>
+  <sequence>105</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>36</thread>
+  <message>recv:l`?nn</message>
+</record>
+<record>
+  <date>2018-01-25T18:48:30</date>
+  <millis>1516886310608</millis>
+  <sequence>106</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>36</thread>
+  <message>recv:ŽlnrŽ’’n</message>
+</record>
+<record>
+  <date>2018-01-25T18:48:30</date>
+  <millis>1516886310623</millis>
+  <sequence>107</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>36</thread>
+  <message>recv:bìl`r’’n</message>
+</record>
+<record>
+  <date>2018-01-25T18:48:30</date>
+  <millis>1516886310623</millis>
+  <sequence>108</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>36</thread>
+  <message>recv:bìl`</message>
+</record>
+<record>
+  <date>2018-01-25T18:48:30</date>
+  <millis>1516886310655</millis>
+  <sequence>109</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>36</thread>
+  <message>recv:Œâì‚nì</message>
+</record>
+<record>
+  <date>2018-01-25T18:48:30</date>
+  <millis>1516886310670</millis>
+  <sequence>110</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>36</thread>
+  <message>recv:’r‚òn|ìŒlŽprlb’ž|r’lœnà‚nâ l`Œâr’lŒlŒl`Œâr’lìlŒl`Œâr’lŽž Œll`rlŽ‚rlŒžâŒbŒŒbp|bp‚ŒŽpžŒŽbìònî€nnâllàâlŽ</message>
+</record>
+<record>
+  <date>2018-01-25T18:48:30</date>
+  <millis>1516886310670</millis>
+  <sequence>111</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>36</thread>
+  <message>recv:ŒlìŽ</message>
+</record>
+<record>
+  <date>2018-01-25T18:48:30</date>
+  <millis>1516886310670</millis>
+  <sequence>112</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>36</thread>
+  <message>recv:lŒŽ€ŒlŽrrl€nü ŒžâŒbllìŽ</message>
+</record>
+<record>
+  <date>2018-01-25T18:48:30</date>
+  <millis>1516886310670</millis>
+  <sequence>113</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>36</thread>
+  <message>recv:b</message>
+</record>
+<record>
+  <date>2018-01-25T18:48:30</date>
+  <millis>1516886310670</millis>
+  <sequence>114</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>36</thread>
+  <message>recv:ŒžâŒblŒbrlr</message>
+</record>
+<record>
+  <date>2018-01-25T18:48:30</date>
+  <millis>1516886310670</millis>
+  <sequence>115</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>36</thread>
+  <message>recv:&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:48:30</date>
+  <millis>1516886310717</millis>
+  <sequence>116</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>36</thread>
+  <message>recv:&lt;CR&gt;&lt;LF&gt;NodeMCU custom build by frightanic.com&lt;CR&gt;&lt;LF&gt;	branch: master&lt;CR&gt;&lt;LF&gt;	commit: 5073c199c01d4d7bbbcd0ae1f761ecc4687f7217&lt;CR&gt;&lt;LF&gt;	SSL: true&lt;CR&gt;&lt;LF&gt;	modules: enduser_setup,file,gpio,i2c,mqtt,net,node,sjson,tmr,uart,wifi,tls&lt;CR&gt;&lt;LF&gt; build 	built on: 2018-01-11 12:43&lt;CR&gt;&lt;LF&gt; powered by Lua 5.1.4 on SDK 2.1.0(116b762)&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:48:30</date>
+  <millis>1516886310733</millis>
+  <sequence>117</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>36</thread>
+  <message>Operation done. Duration = 1344 ms</message>
+</record>
+<record>
+  <date>2018-01-25T18:48:33</date>
+  <millis>1516886313608</millis>
+  <sequence>118</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>DataSender: start "Smart Mode"</message>
+</record>
+<record>
+  <date>2018-01-25T18:48:33</date>
+  <millis>1516886313608</millis>
+  <sequence>119</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>SendToESP: Starting...</message>
+</record>
+<record>
+  <date>2018-01-25T18:48:33</date>
+  <millis>1516886313717</millis>
+  <sequence>120</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>0</message>
+</record>
+<record>
+  <date>2018-01-25T18:48:33</date>
+  <millis>1516886313717</millis>
+  <sequence>121</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:print(wifi.sta.status()==wifi.STA_GOTIP)&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:48:33</date>
+  <millis>1516886313717</millis>
+  <sequence>122</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>38</thread>
+  <message>recv:print(wifi.sta.status()==wifi.STA_GOTIP)&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:48:33</date>
+  <millis>1516886313733</millis>
+  <sequence>123</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>38</thread>
+  <message>Operation done. Duration = 156 ms</message>
+</record>
+<record>
+  <date>2018-01-25T18:49:45</date>
+  <millis>1516886385279</millis>
+  <sequence>124</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>DataSender: start "Smart Mode"</message>
+</record>
+<record>
+  <date>2018-01-25T18:49:45</date>
+  <millis>1516886385279</millis>
+  <sequence>125</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>SendToESP: Starting...</message>
+</record>
+<record>
+  <date>2018-01-25T18:49:45</date>
+  <millis>1516886385388</millis>
+  <sequence>126</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>0</message>
+</record>
+<record>
+  <date>2018-01-25T18:49:45</date>
+  <millis>1516886385388</millis>
+  <sequence>127</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:m:on("message",&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:49:45</date>
+  <millis>1516886385388</millis>
+  <sequence>128</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>40</thread>
+  <message>recv:m:on("message",&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:49:45</date>
+  <millis>1516886385388</millis>
+  <sequence>129</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>40</thread>
+  <message>recv:</message>
+</record>
+<record>
+  <date>2018-01-25T18:49:45</date>
+  <millis>1516886385498</millis>
+  <sequence>130</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>1</message>
+</record>
+<record>
+  <date>2018-01-25T18:49:45</date>
+  <millis>1516886385498</millis>
+  <sequence>131</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:function(client, topic, data)&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:49:45</date>
+  <millis>1516886385498</millis>
+  <sequence>132</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>40</thread>
+  <message>recv:function(client, topic, data)&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:49:45</date>
+  <millis>1516886385513</millis>
+  <sequence>133</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>40</thread>
+  <message>recv:</message>
+</record>
+<record>
+  <date>2018-01-25T18:49:45</date>
+  <millis>1516886385607</millis>
+  <sequence>134</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>2</message>
+</record>
+<record>
+  <date>2018-01-25T18:49:45</date>
+  <millis>1516886385607</millis>
+  <sequence>135</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:print(topic .. ":" )&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:49:45</date>
+  <millis>1516886385607</millis>
+  <sequence>136</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>40</thread>
+  <message>recv:print topic .. ":" )&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:49:45</date>
+  <millis>1516886385607</millis>
+  <sequence>137</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>40</thread>
+  <message>recv:stdin:3: '=' expected near '..'&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:49:45</date>
+  <millis>1516886385623</millis>
+  <sequence>138</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>40</thread>
+  <message>recv:&gt; </message>
+</record>
+<record>
+  <date>2018-01-25T18:49:47</date>
+  <millis>1516886387060</millis>
+  <sequence>139</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>40</thread>
+  <message>recv:Disconnect reason: 201(NO_AP_FOUND)&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:49:48</date>
+  <millis>1516886388873</millis>
+  <sequence>140</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Operation done. Duration = 3610 ms</message>
+</record>
+<record>
+  <date>2018-01-25T18:49:58</date>
+  <millis>1516886398259</millis>
+  <sequence>141</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Try to open file init.lua</message>
+</record>
+<record>
+  <date>2018-01-25T18:49:58</date>
+  <millis>1516886398259</millis>
+  <sequence>142</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>File name: C:\Users\Karthik\Documents\init.lua</message>
+</record>
+<record>
+  <date>2018-01-25T18:49:58</date>
+  <millis>1516886398274</millis>
+  <sequence>143</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Try to load file init.lua</message>
+</record>
+<record>
+  <date>2018-01-25T18:49:58</date>
+  <millis>1516886398321</millis>
+  <sequence>144</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Loading init.lua: Success.</message>
+</record>
+<record>
+  <date>2018-01-25T18:49:58</date>
+  <millis>1516886398321</millis>
+  <sequence>145</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Open "init.lua": Success.</message>
+</record>
+<record>
+  <date>2018-01-25T18:50:23</date>
+  <millis>1516886423910</millis>
+  <sequence>146</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:50:26</date>
+  <millis>1516886426509</millis>
+  <sequence>147</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:50:36</date>
+  <millis>1516886436118</millis>
+  <sequence>148</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:50:44</date>
+  <millis>1516886444688</millis>
+  <sequence>149</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:50:45</date>
+  <millis>1516886445723</millis>
+  <sequence>150</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:50:46</date>
+  <millis>1516886446803</millis>
+  <sequence>151</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:50:47</date>
+  <millis>1516886447719</millis>
+  <sequence>152</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:50:49</date>
+  <millis>1516886449808</millis>
+  <sequence>153</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:51:20</date>
+  <millis>1516886480030</millis>
+  <sequence>154</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:51:21</date>
+  <millis>1516886481937</millis>
+  <sequence>155</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:51:22</date>
+  <millis>1516886482093</millis>
+  <sequence>156</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:51:22</date>
+  <millis>1516886482269</millis>
+  <sequence>157</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:51:22</date>
+  <millis>1516886482441</millis>
+  <sequence>158</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:51:22</date>
+  <millis>1516886482613</millis>
+  <sequence>159</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:51:22</date>
+  <millis>1516886482785</millis>
+  <sequence>160</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:51:22</date>
+  <millis>1516886482941</millis>
+  <sequence>161</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:51:23</date>
+  <millis>1516886483144</millis>
+  <sequence>162</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:51:23</date>
+  <millis>1516886483316</millis>
+  <sequence>163</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:51:33</date>
+  <millis>1516886493579</millis>
+  <sequence>164</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:51:33</date>
+  <millis>1516886493735</millis>
+  <sequence>165</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:51:33</date>
+  <millis>1516886493892</millis>
+  <sequence>166</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:51:34</date>
+  <millis>1516886494064</millis>
+  <sequence>167</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:51:34</date>
+  <millis>1516886494220</millis>
+  <sequence>168</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:51:34</date>
+  <millis>1516886494361</millis>
+  <sequence>169</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:51:34</date>
+  <millis>1516886494501</millis>
+  <sequence>170</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:51:34</date>
+  <millis>1516886494689</millis>
+  <sequence>171</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:51:35</date>
+  <millis>1516886495376</millis>
+  <sequence>172</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:51:35</date>
+  <millis>1516886495501</millis>
+  <sequence>173</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:51:35</date>
+  <millis>1516886495658</millis>
+  <sequence>174</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:51:35</date>
+  <millis>1516886495845</millis>
+  <sequence>175</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:52:29</date>
+  <millis>1516886549370</millis>
+  <sequence>176</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:52:29</date>
+  <millis>1516886549535</millis>
+  <sequence>177</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:52:29</date>
+  <millis>1516886549704</millis>
+  <sequence>178</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:52:29</date>
+  <millis>1516886549863</millis>
+  <sequence>179</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:52:30</date>
+  <millis>1516886550269</millis>
+  <sequence>180</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:52:30</date>
+  <millis>1516886550428</millis>
+  <sequence>181</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:52:30</date>
+  <millis>1516886550571</millis>
+  <sequence>182</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:52:30</date>
+  <millis>1516886550706</millis>
+  <sequence>183</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:52:30</date>
+  <millis>1516886550864</millis>
+  <sequence>184</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:52:31</date>
+  <millis>1516886551020</millis>
+  <sequence>185</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:52:31</date>
+  <millis>1516886551176</millis>
+  <sequence>186</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:52:33</date>
+  <millis>1516886553991</millis>
+  <sequence>187</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:52:34</date>
+  <millis>1516886554171</millis>
+  <sequence>188</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:52:34</date>
+  <millis>1516886554341</millis>
+  <sequence>189</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:52:34</date>
+  <millis>1516886554501</millis>
+  <sequence>190</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:52:34</date>
+  <millis>1516886554690</millis>
+  <sequence>191</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:52:34</date>
+  <millis>1516886554903</millis>
+  <sequence>192</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:52:35</date>
+  <millis>1516886555058</millis>
+  <sequence>193</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:52:35</date>
+  <millis>1516886555228</millis>
+  <sequence>194</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:52:35</date>
+  <millis>1516886555403</millis>
+  <sequence>195</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:52:35</date>
+  <millis>1516886555607</millis>
+  <sequence>196</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:52:35</date>
+  <millis>1516886555781</millis>
+  <sequence>197</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:52:35</date>
+  <millis>1516886555961</millis>
+  <sequence>198</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:52:54</date>
+  <millis>1516886574390</millis>
+  <sequence>199</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:52:54</date>
+  <millis>1516886574558</millis>
+  <sequence>200</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:52:54</date>
+  <millis>1516886574748</millis>
+  <sequence>201</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:52:54</date>
+  <millis>1516886574907</millis>
+  <sequence>202</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:52:55</date>
+  <millis>1516886575062</millis>
+  <sequence>203</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:52:55</date>
+  <millis>1516886575217</millis>
+  <sequence>204</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:52:55</date>
+  <millis>1516886575387</millis>
+  <sequence>205</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:53:16</date>
+  <millis>1516886596995</millis>
+  <sequence>206</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:53:17</date>
+  <millis>1516886597175</millis>
+  <sequence>207</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:53:17</date>
+  <millis>1516886597332</millis>
+  <sequence>208</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:53:17</date>
+  <millis>1516886597509</millis>
+  <sequence>209</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:53:18</date>
+  <millis>1516886598210</millis>
+  <sequence>210</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:53:18</date>
+  <millis>1516886598396</millis>
+  <sequence>211</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:53:18</date>
+  <millis>1516886598570</millis>
+  <sequence>212</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:53:18</date>
+  <millis>1516886598736</millis>
+  <sequence>213</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:53:18</date>
+  <millis>1516886598912</millis>
+  <sequence>214</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:53:19</date>
+  <millis>1516886599074</millis>
+  <sequence>215</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:53:19</date>
+  <millis>1516886599239</millis>
+  <sequence>216</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:53:19</date>
+  <millis>1516886599679</millis>
+  <sequence>217</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:53:19</date>
+  <millis>1516886599848</millis>
+  <sequence>218</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:53:20</date>
+  <millis>1516886600027</millis>
+  <sequence>219</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:53:20</date>
+  <millis>1516886600218</millis>
+  <sequence>220</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:53:55</date>
+  <millis>1516886635004</millis>
+  <sequence>221</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:53:55</date>
+  <millis>1516886635176</millis>
+  <sequence>222</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:53:55</date>
+  <millis>1516886635332</millis>
+  <sequence>223</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:53:55</date>
+  <millis>1516886635488</millis>
+  <sequence>224</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:53:55</date>
+  <millis>1516886635644</millis>
+  <sequence>225</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:53:55</date>
+  <millis>1516886635832</millis>
+  <sequence>226</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:54:23</date>
+  <millis>1516886663198</millis>
+  <sequence>227</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:54:23</date>
+  <millis>1516886663373</millis>
+  <sequence>228</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:54:23</date>
+  <millis>1516886663529</millis>
+  <sequence>229</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:54:23</date>
+  <millis>1516886663682</millis>
+  <sequence>230</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:54:23</date>
+  <millis>1516886663841</millis>
+  <sequence>231</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:54:23</date>
+  <millis>1516886663994</millis>
+  <sequence>232</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:54:24</date>
+  <millis>1516886664167</millis>
+  <sequence>233</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:54:24</date>
+  <millis>1516886664320</millis>
+  <sequence>234</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:54:39</date>
+  <millis>1516886679591</millis>
+  <sequence>235</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:54:39</date>
+  <millis>1516886679778</millis>
+  <sequence>236</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:54:39</date>
+  <millis>1516886679968</millis>
+  <sequence>237</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:54:40</date>
+  <millis>1516886680143</millis>
+  <sequence>238</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:54:40</date>
+  <millis>1516886680548</millis>
+  <sequence>239</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:54:40</date>
+  <millis>1516886680713</millis>
+  <sequence>240</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:54:40</date>
+  <millis>1516886680861</millis>
+  <sequence>241</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:54:41</date>
+  <millis>1516886681016</millis>
+  <sequence>242</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:54:52</date>
+  <millis>1516886692025</millis>
+  <sequence>243</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:54:52</date>
+  <millis>1516886692199</millis>
+  <sequence>244</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:54:52</date>
+  <millis>1516886692364</millis>
+  <sequence>245</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:54:52</date>
+  <millis>1516886692503</millis>
+  <sequence>246</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:54:52</date>
+  <millis>1516886692643</millis>
+  <sequence>247</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T18:54:52</date>
+  <millis>1516886692794</millis>
+  <sequence>248</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T21:04:27</date>
+  <millis>1516894467590</millis>
+  <sequence>249</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T21:04:28</date>
+  <millis>1516894468486</millis>
+  <sequence>250</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T21:04:28</date>
+  <millis>1516894468746</millis>
+  <sequence>251</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T21:04:28</date>
+  <millis>1516894468921</millis>
+  <sequence>252</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T21:04:29</date>
+  <millis>1516894469094</millis>
+  <sequence>253</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T21:04:29</date>
+  <millis>1516894469251</millis>
+  <sequence>254</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T21:04:29</date>
+  <millis>1516894469406</millis>
+  <sequence>255</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T21:04:29</date>
+  <millis>1516894469559</millis>
+  <sequence>256</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T21:04:34</date>
+  <millis>1516894474246</millis>
+  <sequence>257</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T21:04:34</date>
+  <millis>1516894474434</millis>
+  <sequence>258</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T21:04:34</date>
+  <millis>1516894474599</millis>
+  <sequence>259</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T21:04:34</date>
+  <millis>1516894474778</millis>
+  <sequence>260</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T21:04:34</date>
+  <millis>1516894474920</millis>
+  <sequence>261</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T21:04:35</date>
+  <millis>1516894475083</millis>
+  <sequence>262</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T21:04:42</date>
+  <millis>1516894482519</millis>
+  <sequence>263</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T21:04:42</date>
+  <millis>1516894482779</millis>
+  <sequence>264</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T21:04:43</date>
+  <millis>1516894483041</millis>
+  <sequence>265</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T21:04:43</date>
+  <millis>1516894483268</millis>
+  <sequence>266</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T21:04:43</date>
+  <millis>1516894483476</millis>
+  <sequence>267</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T21:45:15</date>
+  <millis>1516896915975</millis>
+  <sequence>268</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Close port COM10 - Success.</message>
+</record>
+<record>
+  <date>2018-01-25T21:45:16</date>
+  <millis>1516896916337</millis>
+  <sequence>269</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Serial port COM10 save as default.</message>
+</record>
+<record>
+  <date>2018-01-25T21:45:16</date>
+  <millis>1516896916337</millis>
+  <sequence>270</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Baud rate 115200 save as default.</message>
+</record>
+<record>
+  <date>2018-01-25T21:45:16</date>
+  <millis>1516896916338</millis>
+  <sequence>271</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Try to open port COM10, baud 115200, 8N1</message>
+</record>
+<record>
+  <date>2018-01-25T21:45:16</date>
+  <millis>1516896916342</millis>
+  <sequence>272</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Open port COM10 - Success.</message>
+</record>
+<record>
+  <date>2018-01-25T21:45:43</date>
+  <millis>1516896943907</millis>
+  <sequence>273</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:    enduser_setup.start(       function() print("Connected to wifi as:" .. wifi.sta.getip())       sendMessage("01")        dofile("mqtt.lua")        end,        function(err, str) print("enduser_setup: Err #" .. err .. ": " .. str)end,       print -- Lua print function can serve as the debug callback      ) &lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T21:45:47</date>
+  <millis>1516896947558</millis>
+  <sequence>274</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:    enduser_setup.start(       function() print("Connected to wifi as:" .. wifi.sta.getip())       sendMessage("01")        dofile("mqtt.lua")        end,        function(err, str) print("enduser_setup: Err #" .. err .. ": " .. str)end,       print -- Lua print function can serve as the debug callback      ) &lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T21:45:56</date>
+  <millis>1516896956834</millis>
+  <sequence>275</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending: enduser_setup.start(       function() print("Connected to wifi as:" .. wifi.sta.getip())       sendMessage("01")        dofile("mqtt.lua")        end,        function(err, str) print("enduser_setup: Err #" .. err .. ": " .. str)end,       print -- Lua print function can serve as the debug callback      )  &lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T21:46:04</date>
+  <millis>1516896964163</millis>
+  <sequence>276</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Snippet name set to:Snippet5</message>
+</record>
+<record>
+  <date>2018-01-25T21:46:06</date>
+  <millis>1516896966781</millis>
+  <sequence>277</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Snippet5 saved: Success.</message>
+</record>
+<record>
+  <date>2018-01-25T21:46:08</date>
+  <millis>1516896968740</millis>
+  <sequence>278</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>DataSender: start "Smart Mode"</message>
+</record>
+<record>
+  <date>2018-01-25T21:46:08</date>
+  <millis>1516896968740</millis>
+  <sequence>279</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>SendToESP: Starting...</message>
+</record>
+<record>
+  <date>2018-01-25T21:46:08</date>
+  <millis>1516896968841</millis>
+  <sequence>280</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>0</message>
+</record>
+<record>
+  <date>2018-01-25T21:46:08</date>
+  <millis>1516896968841</millis>
+  <sequence>281</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:enduser_setup.start(&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T21:46:08</date>
+  <millis>1516896968890</millis>
+  <sequence>282</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>48</thread>
+  <message>recv:Disconnect reason: 201(NO_AP_FOUND)&lt;CR&gt;&lt;LF&gt;enduser_setup.start(&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T21:46:08</date>
+  <millis>1516896968891</millis>
+  <sequence>283</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>48</thread>
+  <message>recv:</message>
+</record>
+<record>
+  <date>2018-01-25T21:46:08</date>
+  <millis>1516896968993</millis>
+  <sequence>284</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>1</message>
+</record>
+<record>
+  <date>2018-01-25T21:46:08</date>
+  <millis>1516896968993</millis>
+  <sequence>285</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:function() print("Connected to wifi as:" .. wifi.sta.getip())&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T21:46:09</date>
+  <millis>1516896969000</millis>
+  <sequence>286</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>48</thread>
+  <message>recv:function() print("Connected to wifi as:" .. wifi.sta.getip())&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T21:46:09</date>
+  <millis>1516896969012</millis>
+  <sequence>287</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>48</thread>
+  <message>recv:</message>
+</record>
+<record>
+  <date>2018-01-25T21:46:09</date>
+  <millis>1516896969103</millis>
+  <sequence>288</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>2</message>
+</record>
+<record>
+  <date>2018-01-25T21:46:09</date>
+  <millis>1516896969103</millis>
+  <sequence>289</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T21:46:09</date>
+  <millis>1516896969107</millis>
+  <sequence>290</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>48</thread>
+  <message>recv:sendMessage("01")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T21:46:09</date>
+  <millis>1516896969119</millis>
+  <sequence>291</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>48</thread>
+  <message>recv:</message>
+</record>
+<record>
+  <date>2018-01-25T21:46:09</date>
+  <millis>1516896969208</millis>
+  <sequence>292</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>3</message>
+</record>
+<record>
+  <date>2018-01-25T21:46:09</date>
+  <millis>1516896969208</millis>
+  <sequence>293</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:dofile("mqtt.lua")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T21:46:09</date>
+  <millis>1516896969213</millis>
+  <sequence>294</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>48</thread>
+  <message>recv:dofile("mqtt.lua")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T21:46:09</date>
+  <millis>1516896969225</millis>
+  <sequence>295</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>48</thread>
+  <message>recv:</message>
+</record>
+<record>
+  <date>2018-01-25T21:46:09</date>
+  <millis>1516896969314</millis>
+  <sequence>296</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>4</message>
+</record>
+<record>
+  <date>2018-01-25T21:46:09</date>
+  <millis>1516896969314</millis>
+  <sequence>297</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:end,&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T21:46:09</date>
+  <millis>1516896969317</millis>
+  <sequence>298</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>48</thread>
+  <message>recv:end,&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T21:46:09</date>
+  <millis>1516896969329</millis>
+  <sequence>299</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>48</thread>
+  <message>recv:</message>
+</record>
+<record>
+  <date>2018-01-25T21:46:09</date>
+  <millis>1516896969420</millis>
+  <sequence>300</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>5</message>
+</record>
+<record>
+  <date>2018-01-25T21:46:09</date>
+  <millis>1516896969420</millis>
+  <sequence>301</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:function(err, str) print("enduser_setup: Err #" .. err .. ": " .. str)end,&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T21:46:09</date>
+  <millis>1516896969428</millis>
+  <sequence>302</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>48</thread>
+  <message>recv:function(err, str) print("enduser_setup: Err #" .. err .. ": " .. str)end,&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T21:46:09</date>
+  <millis>1516896969443</millis>
+  <sequence>303</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>48</thread>
+  <message>recv:</message>
+</record>
+<record>
+  <date>2018-01-25T21:46:09</date>
+  <millis>1516896969530</millis>
+  <sequence>304</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>6</message>
+</record>
+<record>
+  <date>2018-01-25T21:46:09</date>
+  <millis>1516896969530</millis>
+  <sequence>305</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:print -- Lua print function can serve as the debug callback&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T21:46:09</date>
+  <millis>1516896969539</millis>
+  <sequence>306</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>48</thread>
+  <message>recv:print -- Lua print function can serve as the debug callback&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T21:46:09</date>
+  <millis>1516896969554</millis>
+  <sequence>307</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>48</thread>
+  <message>recv:</message>
+</record>
+<record>
+  <date>2018-01-25T21:46:09</date>
+  <millis>1516896969640</millis>
+  <sequence>308</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>7</message>
+</record>
+<record>
+  <date>2018-01-25T21:46:09</date>
+  <millis>1516896969640</millis>
+  <sequence>309</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:)&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T21:46:09</date>
+  <millis>1516896969643</millis>
+  <sequence>310</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>48</thread>
+  <message>recv:)&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T21:46:09</date>
+  <millis>1516896969662</millis>
+  <sequence>311</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>48</thread>
+  <message>Operation done. Duration = 941 ms</message>
+</record>
+<record>
+  <date>2018-01-25T21:46:24</date>
+  <millis>1516896984821</millis>
+  <sequence>312</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>DataSender: start "Smart Mode"</message>
+</record>
+<record>
+  <date>2018-01-25T21:46:24</date>
+  <millis>1516896984822</millis>
+  <sequence>313</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>SendToESP: Starting...</message>
+</record>
+<record>
+  <date>2018-01-25T21:46:24</date>
+  <millis>1516896984923</millis>
+  <sequence>314</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>0</message>
+</record>
+<record>
+  <date>2018-01-25T21:46:24</date>
+  <millis>1516896984923</millis>
+  <sequence>315</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:print(wifi.sta.status()==wifi.STA_GOTIP)&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T21:46:24</date>
+  <millis>1516896984928</millis>
+  <sequence>316</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>51</thread>
+  <message>recv:print(wifi.sta.status()==wifi.STA_GOTIP)&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T21:46:24</date>
+  <millis>1516896984951</millis>
+  <sequence>317</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>51</thread>
+  <message>Operation done. Duration = 147 ms</message>
+</record>
+<record>
+  <date>2018-01-25T21:46:25</date>
+  <millis>1516896985917</millis>
+  <sequence>318</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>DataSender: start "Smart Mode"</message>
+</record>
+<record>
+  <date>2018-01-25T21:46:25</date>
+  <millis>1516896985917</millis>
+  <sequence>319</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>SendToESP: Starting...</message>
+</record>
+<record>
+  <date>2018-01-25T21:46:26</date>
+  <millis>1516896986017</millis>
+  <sequence>320</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>0</message>
+</record>
+<record>
+  <date>2018-01-25T21:46:26</date>
+  <millis>1516896986017</millis>
+  <sequence>321</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:print(wifi.sta.status()==wifi.STA_GOTIP)&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T21:46:26</date>
+  <millis>1516896986023</millis>
+  <sequence>322</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>53</thread>
+  <message>recv:print(wifi.sta.status()==wifi.STA_GOTIP)&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T21:46:26</date>
+  <millis>1516896986047</millis>
+  <sequence>323</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>53</thread>
+  <message>Operation done. Duration = 148 ms</message>
+</record>
+<record>
+  <date>2018-01-25T21:46:46</date>
+  <millis>1516897006875</millis>
+  <sequence>324</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:  enduser_setup.start()&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T21:47:49</date>
+  <millis>1516897069291</millis>
+  <sequence>325</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:  enduser_setup.start()&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T22:05:17</date>
+  <millis>1516898117872</millis>
+  <sequence>326</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Try to open file mqtt.lua</message>
+</record>
+<record>
+  <date>2018-01-25T22:05:17</date>
+  <millis>1516898117872</millis>
+  <sequence>327</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>File name: C:\Users\Karthik\Documents\mqtt.lua</message>
+</record>
+<record>
+  <date>2018-01-25T22:05:17</date>
+  <millis>1516898117888</millis>
+  <sequence>328</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Try to load file mqtt.lua</message>
+</record>
+<record>
+  <date>2018-01-25T22:05:17</date>
+  <millis>1516898117919</millis>
+  <sequence>329</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Loading mqtt.lua: Success.</message>
+</record>
+<record>
+  <date>2018-01-25T22:05:17</date>
+  <millis>1516898117919</millis>
+  <sequence>330</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Open "mqtt.lua": Success.</message>
+</record>
+<record>
+  <date>2018-01-25T22:05:34</date>
+  <millis>1516898134893</millis>
+  <sequence>331</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>We save known file mqtt.lua</message>
+</record>
+<record>
+  <date>2018-01-25T22:05:34</date>
+  <millis>1516898134893</millis>
+  <sequence>332</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Try to saving file mqtt.lua ...</message>
+</record>
+<record>
+  <date>2018-01-25T22:05:34</date>
+  <millis>1516898134909</millis>
+  <sequence>333</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Save file mqtt.lua: Success.</message>
+</record>
+<record>
+  <date>2018-01-25T22:05:34</date>
+  <millis>1516898134924</millis>
+  <sequence>334</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>FileSaveESP: Try to save file to ESP...</message>
+</record>
+<record>
+  <date>2018-01-25T22:05:34</date>
+  <millis>1516898134924</millis>
+  <sequence>335</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>FileSaveESP-Turbo: Try to save file to ESP in Turbo Mode...</message>
+</record>
+<record>
+  <date>2018-01-25T22:05:34</date>
+  <millis>1516898134940</millis>
+  <sequence>336</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>DataTurboSender: start "Smart Mode"</message>
+</record>
+<record>
+  <date>2018-01-25T22:05:34</date>
+  <millis>1516898134940</millis>
+  <sequence>337</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>FileSaveESP-Turbo: Starting...</message>
+</record>
+<record>
+  <date>2018-01-25T22:05:35</date>
+  <millis>1516898135065</millis>
+  <sequence>338</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:local FILE="mqtt.lua" file.remove(FILE) file.open(FILE,"w+") uart.setup(0,115200,8,0,1,0)</message>
+</record>
+<record>
+  <date>2018-01-25T22:05:35</date>
+  <millis>1516898135065</millis>
+  <sequence>339</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>57</thread>
+  <message>recv:local FILE="mqtt.lua" file.remove(FILE) file.open(FILE,"w+") uart.setup(0,115200,8,0,1,0)&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T22:05:35</date>
+  <millis>1516898135112</millis>
+  <sequence>340</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>57</thread>
+  <message>recv:&gt; </message>
+</record>
+<record>
+  <date>2018-01-25T22:05:35</date>
+  <millis>1516898135221</millis>
+  <sequence>341</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:ESP_Receiver=function(rcvBuf) if string.match(rcvBuf,"^ESP_cmd_close")==nil then file.write(string.gsub(rcvBuf, '\r', '')) uart.write(0, "&gt; ") else uart.on("data") </message>
+</record>
+<record>
+  <date>2018-01-25T22:05:35</date>
+  <millis>1516898135237</millis>
+  <sequence>342</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>57</thread>
+  <message>recv:&gt;&gt; </message>
+</record>
+<record>
+  <date>2018-01-25T22:05:35</date>
+  <millis>1516898135362</millis>
+  <sequence>343</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:file.flush() file.close() FILE=nil rcvBuf=nil ESP_Receiver=nil uart.setup(0,115200,8,0,1,1) str="\r\n--Done--\r\n&gt; " print(str) str=nil collectgarbage() end end uart.on("data",'\r',ESP_Receiver,0)</message>
+</record>
+<record>
+  <date>2018-01-25T22:05:35</date>
+  <millis>1516898135393</millis>
+  <sequence>344</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>57</thread>
+  <message>recv:&gt; </message>
+</record>
+<record>
+  <date>2018-01-25T22:05:35</date>
+  <millis>1516898135502</millis>
+  <sequence>345</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:print("mqtt setup start");
+
+
+ connected=0
+m = mqtt.Client("clientid", 30, "A1E-a3nUoARivVvZb5G0ZucYlX4WPeFyTB", "")
+ 
+m:on("message", 
+ function(client, topic, data) 
+  print("--received message")
+  print(topic .. ":" ) 
+  if data ~= nil then
+    print(d</message>
+</record>
+<record>
+  <date>2018-01-25T22:05:35</date>
+  <millis>1516898135518</millis>
+  <sequence>346</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>57</thread>
+  <message>recv:&gt; </message>
+</record>
+<record>
+  <date>2018-01-25T22:05:35</date>
+  <millis>1516898135643</millis>
+  <sequence>347</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:ata) 
+        if( string.match(topic, "s1") ) then    sendMessage("1".. data)
+    elseif( string.match(topic, "s2") ) then    sendMessage("2".. data)
+    elseif( string.match(topic, "s3") ) then    sendMessage("3".. data)
+    elseif( string.match(topic, </message>
+</record>
+<record>
+  <date>2018-01-25T22:05:35</date>
+  <millis>1516898135674</millis>
+  <sequence>348</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>57</thread>
+  <message>recv:&gt; </message>
+</record>
+<record>
+  <date>2018-01-25T22:05:35</date>
+  <millis>1516898135784</millis>
+  <sequence>349</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:"s4") ) then    sendMessage("4".. data)
+    end 
+  end
+ end
+)
+  
+
+function handle_mqtt_error(client, reason) 
+ print("--failed reason: " .. reason) 
+ connected=0
+ tmr.create():alarm(10 * 5000, tmr.ALARM_SINGLE, do_mqtt_connect)
+end
+
+function do_mqtt_conn</message>
+</record>
+<record>
+  <date>2018-01-25T22:05:35</date>
+  <millis>1516898135815</millis>
+  <sequence>350</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>57</thread>
+  <message>recv:&gt; </message>
+</record>
+<record>
+  <date>2018-01-25T22:05:35</date>
+  <millis>1516898135924</millis>
+  <sequence>351</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:ect()
+  m:connect("things.ubidots.com",1883, 0,
+ function(client)
+  print("--connected")  
+  connected=1
+  client:subscribe(
+  {
+  ["/v1.6/devices/sem/s1/lv"]=1,
+  ["/v1.6/devices/sem/s2/lv"]=1,
+  ["/v1.6/devices/sem/s3/lv"]=1
+  }
+  , function(client) pr</message>
+</record>
+<record>
+  <date>2018-01-25T22:05:35</date>
+  <millis>1516898135956</millis>
+  <sequence>352</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>57</thread>
+  <message>recv:&gt; </message>
+</record>
+<record>
+  <date>2018-01-25T22:05:36</date>
+  <millis>1516898136065</millis>
+  <sequence>353</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:int("--subscribe success") end) 
+ end,
+handle_mqtt_error)
+end
+
+ do_mqtt_connect()
+print("mqtt setup end");
+
+
+tmr.alarm(0,5000,1,function()
+if connected==1 then 
+getValues()
+end
+end)
+
+
+ 
+function getValues()
+
+
+a = recvMessage()
+if(a=="Waiting for net") th</message>
+</record>
+<record>
+  <date>2018-01-25T22:05:36</date>
+  <millis>1516898136096</millis>
+  <sequence>354</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>57</thread>
+  <message>recv:&gt; </message>
+</record>
+<record>
+  <date>2018-01-25T22:05:36</date>
+  <millis>1516898136206</millis>
+  <sequence>355</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:en sendMessage("01") 
+else
+val={}
+
+      val.v,val.c1,val.c2,val.m = a:match("([^,]+),([^,]+),([^,]+),([^,]+)")
+
+ val=sjson.encode(val)
+  
+if(val~="[]")
+then
+print(val)
+   m:publish("/v1.6/devices/sem", val, 0, 0, function(client) print("sent") end) 
+els</message>
+</record>
+<record>
+  <date>2018-01-25T22:05:36</date>
+  <millis>1516898136237</millis>
+  <sequence>356</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>57</thread>
+  <message>recv:&gt; </message>
+</record>
+<record>
+  <date>2018-01-25T22:05:36</date>
+  <millis>1516898136346</millis>
+  <sequence>357</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:e
+print("---*****i2c Communication fail") end
+end 
+
+
+end
+</message>
+</record>
+<record>
+  <date>2018-01-25T22:05:36</date>
+  <millis>1516898136362</millis>
+  <sequence>358</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>57</thread>
+  <message>recv:&gt; </message>
+</record>
+<record>
+  <date>2018-01-25T22:05:36</date>
+  <millis>1516898136471</millis>
+  <sequence>359</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:ESP_cmd_close</message>
+</record>
+<record>
+  <date>2018-01-25T22:05:36</date>
+  <millis>1516898136487</millis>
+  <sequence>360</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>57</thread>
+  <message>recv:&lt;CR&gt;&lt;LF&gt;--Done--&lt;CR&gt;&lt;LF&gt;&gt; &lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T22:05:36</date>
+  <millis>1516898136596</millis>
+  <sequence>361</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T22:05:36</date>
+  <millis>1516898136596</millis>
+  <sequence>362</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>57</thread>
+  <message>recv:&lt;CR&gt;&lt;LF&gt;&gt; &lt;CR&gt;&lt;LF&gt;&gt; </message>
+</record>
+<record>
+  <date>2018-01-25T22:05:36</date>
+  <millis>1516898136706</millis>
+  <sequence>363</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:dofile("mqtt.lua")</message>
+</record>
+<record>
+  <date>2018-01-25T22:05:36</date>
+  <millis>1516898136706</millis>
+  <sequence>364</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>57</thread>
+  <message>recv:dofile("mqtt.lua")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T22:05:36</date>
+  <millis>1516898136753</millis>
+  <sequence>365</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>57</thread>
+  <message>recv:mqtt setup start&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T22:05:36</date>
+  <millis>1516898136753</millis>
+  <sequence>366</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>57</thread>
+  <message>recv:mqtt setup end&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-01-25T22:05:36</date>
+  <millis>1516898136768</millis>
+  <sequence>367</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>57</thread>
+  <message>recv:&gt; </message>
+</record>
+<record>
+  <date>2018-01-25T22:05:36</date>
+  <millis>1516898136768</millis>
+  <sequence>368</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>57</thread>
+  <message>Operation done. Duration = 1844 ms</message>
+</record>
+<record>
+  <date>2018-01-26T00:13:15</date>
+  <millis>1516905795180</millis>
+  <sequence>369</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>File mqtt.lua already open, select tab to file mqtt.lua</message>
+</record>
