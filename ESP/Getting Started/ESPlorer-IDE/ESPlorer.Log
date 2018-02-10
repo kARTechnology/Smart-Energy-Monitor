@@ -8989,3 +8989,1500 @@ print("wifi setup end");</message>
   <thread>82</thread>
   <message>Operation done. Duration = 1533 ms</message>
 </record>
+<record>
+  <date>2018-02-09T22:14:37</date>
+  <millis>1518194677482</millis>
+  <sequence>771</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:node.restart()&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-02-09T22:14:37</date>
+  <millis>1518194677482</millis>
+  <sequence>772</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Try to reconnect with saved baud 115200...</message>
+</record>
+<record>
+  <date>2018-02-09T22:14:37</date>
+  <millis>1518194677482</millis>
+  <sequence>773</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Reconnect: Success. Now we waiting for ESP reboot...</message>
+</record>
+<record>
+  <date>2018-02-09T22:14:39</date>
+  <millis>1518194679489</millis>
+  <sequence>774</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Try to reconnect with baud 115200...</message>
+</record>
+<record>
+  <date>2018-02-09T22:14:39</date>
+  <millis>1518194679489</millis>
+  <sequence>775</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:print(uart.setup(0, 115200, 8, 0, 1, 1 ))&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-02-09T22:14:39</date>
+  <millis>1518194679705</millis>
+  <sequence>776</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Reconnect: Success.</message>
+</record>
+<record>
+  <date>2018-02-09T22:15:15</date>
+  <millis>1518194715462</millis>
+  <sequence>777</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:node.restart()&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-02-09T22:15:15</date>
+  <millis>1518194715462</millis>
+  <sequence>778</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Try to reconnect with saved baud 115200...</message>
+</record>
+<record>
+  <date>2018-02-09T22:15:15</date>
+  <millis>1518194715464</millis>
+  <sequence>779</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Reconnect: Success. Now we waiting for ESP reboot...</message>
+</record>
+<record>
+  <date>2018-02-09T22:15:17</date>
+  <millis>1518194717480</millis>
+  <sequence>780</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Try to reconnect with baud 115200...</message>
+</record>
+<record>
+  <date>2018-02-09T22:15:17</date>
+  <millis>1518194717480</millis>
+  <sequence>781</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:print(uart.setup(0, 115200, 8, 0, 1, 1 ))&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-02-09T22:15:17</date>
+  <millis>1518194717698</millis>
+  <sequence>782</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Reconnect: Success.</message>
+</record>
+<record>
+  <date>2018-02-09T22:15:45</date>
+  <millis>1518194745017</millis>
+  <sequence>783</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Close port COM10 - Success.</message>
+</record>
+<record>
+  <date>2018-02-09T22:15:45</date>
+  <millis>1518194745217</millis>
+  <sequence>784</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Serial port COM10 save as default.</message>
+</record>
+<record>
+  <date>2018-02-09T22:15:45</date>
+  <millis>1518194745217</millis>
+  <sequence>785</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Baud rate 115200 save as default.</message>
+</record>
+<record>
+  <date>2018-02-09T22:15:45</date>
+  <millis>1518194745217</millis>
+  <sequence>786</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Try to open port COM10, baud 115200, 8N1</message>
+</record>
+<record>
+  <date>2018-02-09T22:15:45</date>
+  <millis>1518194745217</millis>
+  <sequence>787</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Open port COM10 - Success.</message>
+</record>
+<record>
+  <date>2018-02-09T22:16:08</date>
+  <millis>1518194768928</millis>
+  <sequence>788</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Close port COM10 - Success.</message>
+</record>
+<record>
+  <date>2018-02-09T22:16:09</date>
+  <millis>1518194769125</millis>
+  <sequence>789</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Serial port COM10 save as default.</message>
+</record>
+<record>
+  <date>2018-02-09T22:16:09</date>
+  <millis>1518194769126</millis>
+  <sequence>790</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Baud rate 115200 save as default.</message>
+</record>
+<record>
+  <date>2018-02-09T22:16:09</date>
+  <millis>1518194769127</millis>
+  <sequence>791</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Try to open port COM10, baud 115200, 8N1</message>
+</record>
+<record>
+  <date>2018-02-09T22:16:09</date>
+  <millis>1518194769128</millis>
+  <sequence>792</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Open port COM10 - Success.</message>
+</record>
+<record>
+  <date>2018-02-09T22:16:37</date>
+  <millis>1518194797525</millis>
+  <sequence>793</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:node.restart()&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-02-09T22:16:37</date>
+  <millis>1518194797525</millis>
+  <sequence>794</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Try to reconnect with saved baud 115200...</message>
+</record>
+<record>
+  <date>2018-02-09T22:16:37</date>
+  <millis>1518194797525</millis>
+  <sequence>795</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Reconnect: Success. Now we waiting for ESP reboot...</message>
+</record>
+<record>
+  <date>2018-02-09T22:16:39</date>
+  <millis>1518194799534</millis>
+  <sequence>796</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Try to reconnect with baud 115200...</message>
+</record>
+<record>
+  <date>2018-02-09T22:16:39</date>
+  <millis>1518194799534</millis>
+  <sequence>797</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:print(uart.setup(0, 115200, 8, 0, 1, 1 ))&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-02-09T22:16:39</date>
+  <millis>1518194799749</millis>
+  <sequence>798</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Reconnect: Success.</message>
+</record>
+<record>
+  <date>2018-02-09T22:16:40</date>
+  <millis>1518194800194</millis>
+  <sequence>799</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>ERROR: Communication with MCU not established.</message>
+</record>
+<record>
+  <date>2018-02-09T22:16:52</date>
+  <millis>1518194812686</millis>
+  <sequence>800</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:node.restart()&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-02-09T22:16:52</date>
+  <millis>1518194812686</millis>
+  <sequence>801</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Try to reconnect with saved baud 115200...</message>
+</record>
+<record>
+  <date>2018-02-09T22:16:52</date>
+  <millis>1518194812686</millis>
+  <sequence>802</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Reconnect: Success. Now we waiting for ESP reboot...</message>
+</record>
+<record>
+  <date>2018-02-09T22:16:54</date>
+  <millis>1518194814704</millis>
+  <sequence>803</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Try to reconnect with baud 115200...</message>
+</record>
+<record>
+  <date>2018-02-09T22:16:54</date>
+  <millis>1518194814704</millis>
+  <sequence>804</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:print(uart.setup(0, 115200, 8, 0, 1, 1 ))&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-02-09T22:16:54</date>
+  <millis>1518194814907</millis>
+  <sequence>805</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Reconnect: Success.</message>
+</record>
+<record>
+  <date>2018-02-09T22:17:26</date>
+  <millis>1518194846534</millis>
+  <sequence>806</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Close port COM10 - Success.</message>
+</record>
+<record>
+  <date>2018-02-09T22:19:02</date>
+  <millis>1518194942237</millis>
+  <sequence>807</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Serial port COM10 save as default.</message>
+</record>
+<record>
+  <date>2018-02-09T22:19:02</date>
+  <millis>1518194942238</millis>
+  <sequence>808</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Baud rate 115200 save as default.</message>
+</record>
+<record>
+  <date>2018-02-09T22:19:02</date>
+  <millis>1518194942240</millis>
+  <sequence>809</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Try to open port COM10, baud 115200, 8N1</message>
+</record>
+<record>
+  <date>2018-02-09T22:19:02</date>
+  <millis>1518194942306</millis>
+  <sequence>810</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Open port COM10 - Success.</message>
+</record>
+<record>
+  <date>2018-02-09T22:19:22</date>
+  <millis>1518194962338</millis>
+  <sequence>811</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:node.restart()&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-02-09T22:19:22</date>
+  <millis>1518194962338</millis>
+  <sequence>812</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Try to reconnect with saved baud 115200...</message>
+</record>
+<record>
+  <date>2018-02-09T22:19:22</date>
+  <millis>1518194962338</millis>
+  <sequence>813</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Reconnect: Success. Now we waiting for ESP reboot...</message>
+</record>
+<record>
+  <date>2018-02-09T22:19:24</date>
+  <millis>1518194964345</millis>
+  <sequence>814</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Try to reconnect with baud 115200...</message>
+</record>
+<record>
+  <date>2018-02-09T22:19:24</date>
+  <millis>1518194964345</millis>
+  <sequence>815</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:print(uart.setup(0, 115200, 8, 0, 1, 1 ))&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-02-09T22:19:24</date>
+  <millis>1518194964546</millis>
+  <sequence>816</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Reconnect: Success.</message>
+</record>
+<record>
+  <date>2018-02-09T22:19:45</date>
+  <millis>1518194985435</millis>
+  <sequence>817</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:node.restart()&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-02-09T22:19:45</date>
+  <millis>1518194985435</millis>
+  <sequence>818</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Try to reconnect with saved baud 115200...</message>
+</record>
+<record>
+  <date>2018-02-09T22:19:45</date>
+  <millis>1518194985439</millis>
+  <sequence>819</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>ERROR setting port COM10 parameters.</message>
+</record>
+<record>
+  <date>2018-02-09T22:19:47</date>
+  <millis>1518194987909</millis>
+  <sequence>820</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:node.restart()&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-02-09T22:19:47</date>
+  <millis>1518194987910</millis>
+  <sequence>821</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Try to reconnect with saved baud 115200...</message>
+</record>
+<record>
+  <date>2018-02-09T22:19:47</date>
+  <millis>1518194987910</millis>
+  <sequence>822</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>ERROR setting port COM10 parameters.</message>
+</record>
+<record>
+  <date>2018-02-09T22:19:48</date>
+  <millis>1518194988568</millis>
+  <sequence>823</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:node.restart()&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-02-09T22:19:48</date>
+  <millis>1518194988568</millis>
+  <sequence>824</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Try to reconnect with saved baud 115200...</message>
+</record>
+<record>
+  <date>2018-02-09T22:19:48</date>
+  <millis>1518194988571</millis>
+  <sequence>825</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>ERROR setting port COM10 parameters.</message>
+</record>
+<record>
+  <date>2018-02-09T22:19:49</date>
+  <millis>1518194989099</millis>
+  <sequence>826</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:node.restart()&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-02-09T22:19:49</date>
+  <millis>1518194989100</millis>
+  <sequence>827</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Try to reconnect with saved baud 115200...</message>
+</record>
+<record>
+  <date>2018-02-09T22:19:49</date>
+  <millis>1518194989103</millis>
+  <sequence>828</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>ERROR setting port COM10 parameters.</message>
+</record>
+<record>
+  <date>2018-02-09T22:19:49</date>
+  <millis>1518194989501</millis>
+  <sequence>829</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:node.restart()&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-02-09T22:19:49</date>
+  <millis>1518194989501</millis>
+  <sequence>830</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Try to reconnect with saved baud 115200...</message>
+</record>
+<record>
+  <date>2018-02-09T22:19:49</date>
+  <millis>1518194989505</millis>
+  <sequence>831</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>ERROR setting port COM10 parameters.</message>
+</record>
+<record>
+  <date>2018-02-09T22:19:49</date>
+  <millis>1518194989772</millis>
+  <sequence>832</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:node.restart()&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-02-09T22:19:49</date>
+  <millis>1518194989773</millis>
+  <sequence>833</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Try to reconnect with saved baud 115200...</message>
+</record>
+<record>
+  <date>2018-02-09T22:19:49</date>
+  <millis>1518194989775</millis>
+  <sequence>834</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>ERROR setting port COM10 parameters.</message>
+</record>
+<record>
+  <date>2018-02-09T22:19:50</date>
+  <millis>1518194990245</millis>
+  <sequence>835</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:node.restart()&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-02-09T22:19:50</date>
+  <millis>1518194990245</millis>
+  <sequence>836</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Try to reconnect with saved baud 115200...</message>
+</record>
+<record>
+  <date>2018-02-09T22:19:50</date>
+  <millis>1518194990248</millis>
+  <sequence>837</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>ERROR setting port COM10 parameters.</message>
+</record>
+<record>
+  <date>2018-02-09T22:19:55</date>
+  <millis>1518194995761</millis>
+  <sequence>838</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:node.restart()&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-02-09T22:19:55</date>
+  <millis>1518194995761</millis>
+  <sequence>839</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Try to reconnect with saved baud 115200...</message>
+</record>
+<record>
+  <date>2018-02-09T22:19:55</date>
+  <millis>1518194995765</millis>
+  <sequence>840</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>ERROR setting port COM10 parameters.</message>
+</record>
+<record>
+  <date>2018-02-09T22:19:57</date>
+  <millis>1518194997120</millis>
+  <sequence>841</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>jssc.SerialPortException: Port name - COM10; Method name - setEventsMask(); Exception type - Can't set mask.</message>
+</record>
+<record>
+  <date>2018-02-09T22:19:57</date>
+  <millis>1518194997120</millis>
+  <sequence>842</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Close port COM10 - unknown error.</message>
+</record>
+<record>
+  <date>2018-02-09T22:19:57</date>
+  <millis>1518194997282</millis>
+  <sequence>843</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Serial port COM10 save as default.</message>
+</record>
+<record>
+  <date>2018-02-09T22:19:57</date>
+  <millis>1518194997283</millis>
+  <sequence>844</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Baud rate 115200 save as default.</message>
+</record>
+<record>
+  <date>2018-02-09T22:19:57</date>
+  <millis>1518194997285</millis>
+  <sequence>845</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Try to open port COM10, baud 115200, 8N1</message>
+</record>
+<record>
+  <date>2018-02-09T22:19:57</date>
+  <millis>1518194997353</millis>
+  <sequence>846</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Open port COM10 - Success.</message>
+</record>
+<record>
+  <date>2018-02-09T22:20:00</date>
+  <millis>1518195000378</millis>
+  <sequence>847</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Operation done. Duration = 2939908 ms</message>
+</record>
+<record>
+  <date>2018-02-09T22:20:00</date>
+  <millis>1518195000379</millis>
+  <sequence>848</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Waiting answer from ESP - Timeout reached. Command aborted.</message>
+</record>
+<record>
+  <date>2018-02-09T22:27:22</date>
+  <millis>1518195442993</millis>
+  <sequence>849</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>jssc.SerialPortException: Port name - COM10; Method name - setEventsMask(); Exception type - Can't set mask.</message>
+</record>
+<record>
+  <date>2018-02-09T22:27:22</date>
+  <millis>1518195442994</millis>
+  <sequence>850</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Close port COM10 - unknown error.</message>
+</record>
+<record>
+  <date>2018-02-09T22:27:23</date>
+  <millis>1518195443168</millis>
+  <sequence>851</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Serial port COM10 save as default.</message>
+</record>
+<record>
+  <date>2018-02-09T22:27:23</date>
+  <millis>1518195443169</millis>
+  <sequence>852</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Baud rate 115200 save as default.</message>
+</record>
+<record>
+  <date>2018-02-09T22:27:23</date>
+  <millis>1518195443169</millis>
+  <sequence>853</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Try to open port COM10, baud 115200, 8N1</message>
+</record>
+<record>
+  <date>2018-02-09T22:27:23</date>
+  <millis>1518195443174</millis>
+  <sequence>854</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Open port COM10 - Success.</message>
+</record>
+<record>
+  <date>2018-02-09T22:30:56</date>
+  <millis>1518195656292</millis>
+  <sequence>855</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Close port COM10 - Success.</message>
+</record>
+<record>
+  <date>2018-02-09T22:30:56</date>
+  <millis>1518195656514</millis>
+  <sequence>856</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Serial port COM10 save as default.</message>
+</record>
+<record>
+  <date>2018-02-09T22:30:56</date>
+  <millis>1518195656514</millis>
+  <sequence>857</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Baud rate 115200 save as default.</message>
+</record>
+<record>
+  <date>2018-02-09T22:30:56</date>
+  <millis>1518195656514</millis>
+  <sequence>858</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Try to open port COM10, baud 115200, 8N1</message>
+</record>
+<record>
+  <date>2018-02-09T22:30:56</date>
+  <millis>1518195656514</millis>
+  <sequence>859</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Open port COM10 - Success.</message>
+</record>
+<record>
+  <date>2018-02-09T22:30:59</date>
+  <millis>1518195659542</millis>
+  <sequence>860</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Operation done. Duration = 3599072 ms</message>
+</record>
+<record>
+  <date>2018-02-09T22:30:59</date>
+  <millis>1518195659542</millis>
+  <sequence>861</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Waiting answer from ESP - Timeout reached. Command aborted.</message>
+</record>
+<record>
+  <date>2018-02-09T23:37:47</date>
+  <millis>1518199667210</millis>
+  <sequence>862</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:node.restart()&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-02-09T23:37:47</date>
+  <millis>1518199667211</millis>
+  <sequence>863</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Try to reconnect with saved baud 115200...</message>
+</record>
+<record>
+  <date>2018-02-09T23:37:47</date>
+  <millis>1518199667214</millis>
+  <sequence>864</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>ERROR setting port COM10 parameters.</message>
+</record>
+<record>
+  <date>2018-02-09T23:38:19</date>
+  <millis>1518199699636</millis>
+  <sequence>865</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>jssc.SerialPortException: Port name - COM10; Method name - setEventsMask(); Exception type - Can't set mask.</message>
+</record>
+<record>
+  <date>2018-02-09T23:38:19</date>
+  <millis>1518199699636</millis>
+  <sequence>866</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Close port COM10 - unknown error.</message>
+</record>
+<record>
+  <date>2018-02-09T23:38:20</date>
+  <millis>1518199700139</millis>
+  <sequence>867</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Serial port COM10 save as default.</message>
+</record>
+<record>
+  <date>2018-02-09T23:38:20</date>
+  <millis>1518199700139</millis>
+  <sequence>868</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Baud rate 115200 save as default.</message>
+</record>
+<record>
+  <date>2018-02-09T23:38:20</date>
+  <millis>1518199700141</millis>
+  <sequence>869</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Try to open port COM10, baud 115200, 8N1</message>
+</record>
+<record>
+  <date>2018-02-09T23:38:20</date>
+  <millis>1518199700207</millis>
+  <sequence>870</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Open port COM10 - Success.</message>
+</record>
+<record>
+  <date>2018-02-10T00:00:33</date>
+  <millis>1518201033659</millis>
+  <sequence>871</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:node.restart()&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-02-10T00:00:33</date>
+  <millis>1518201033660</millis>
+  <sequence>872</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Try to reconnect with saved baud 115200...</message>
+</record>
+<record>
+  <date>2018-02-10T00:00:33</date>
+  <millis>1518201033662</millis>
+  <sequence>873</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Reconnect: Success. Now we waiting for ESP reboot...</message>
+</record>
+<record>
+  <date>2018-02-10T00:00:35</date>
+  <millis>1518201035665</millis>
+  <sequence>874</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Try to reconnect with baud 115200...</message>
+</record>
+<record>
+  <date>2018-02-10T00:00:35</date>
+  <millis>1518201035665</millis>
+  <sequence>875</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>sending:print(uart.setup(0, 115200, 8, 0, 1, 1 ))&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2018-02-10T00:00:35</date>
+  <millis>1518201035870</millis>
+  <sequence>876</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Reconnect: Success.</message>
+</record>
+<record>
+  <date>2018-02-10T00:43:00</date>
+  <millis>1518203580884</millis>
+  <sequence>877</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>jssc.SerialPortException: Port name - COM10; Method name - setEventsMask(); Exception type - Can't set mask.</message>
+</record>
+<record>
+  <date>2018-02-10T00:43:00</date>
+  <millis>1518203580884</millis>
+  <sequence>878</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Close port COM10 - unknown error.</message>
+</record>
+<record>
+  <date>2018-02-10T00:43:01</date>
+  <millis>1518203581156</millis>
+  <sequence>879</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Serial port COM10 save as default.</message>
+</record>
+<record>
+  <date>2018-02-10T00:43:01</date>
+  <millis>1518203581157</millis>
+  <sequence>880</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Baud rate 115200 save as default.</message>
+</record>
+<record>
+  <date>2018-02-10T00:43:01</date>
+  <millis>1518203581157</millis>
+  <sequence>881</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Try to open port COM10, baud 115200, 8N1</message>
+</record>
+<record>
+  <date>2018-02-10T00:43:01</date>
+  <millis>1518203581159</millis>
+  <sequence>882</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>jssc.SerialPortException: Port name - COM10; Method name - openPort(); Exception type - Port not found.</message>
+</record>
+<record>
+  <date>2018-02-10T01:02:02</date>
+  <millis>1518204722040</millis>
+  <sequence>883</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>File changed. Ask before closing.</message>
+</record>
+<record>
+  <date>2018-02-10T01:02:04</date>
+  <millis>1518204724464</millis>
+  <sequence>884</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>We save known file wifi.lua</message>
+</record>
+<record>
+  <date>2018-02-10T01:02:04</date>
+  <millis>1518204724464</millis>
+  <sequence>885</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Try to saving file wifi.lua ...</message>
+</record>
+<record>
+  <date>2018-02-10T01:02:04</date>
+  <millis>1518204724469</millis>
+  <sequence>886</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Save file wifi.lua: Success.</message>
+</record>
+<record>
+  <date>2018-02-10T01:02:04</date>
+  <millis>1518204724537</millis>
+  <sequence>887</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>FileTab removed: Success.</message>
+</record>
+<record>
+  <date>2018-02-10T01:02:04</date>
+  <millis>1518204724537</millis>
+  <sequence>888</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>File close: Success.</message>
+</record>
+<record>
+  <date>2018-02-10T01:02:04</date>
+  <millis>1518204724540</millis>
+  <sequence>889</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>File changed. Ask before closing.</message>
+</record>
+<record>
+  <date>2018-02-10T01:02:05</date>
+  <millis>1518204725573</millis>
+  <sequence>890</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>We save known file mqtt.lua</message>
+</record>
+<record>
+  <date>2018-02-10T01:02:05</date>
+  <millis>1518204725573</millis>
+  <sequence>891</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Try to saving file mqtt.lua ...</message>
+</record>
+<record>
+  <date>2018-02-10T01:02:05</date>
+  <millis>1518204725578</millis>
+  <sequence>892</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Save file mqtt.lua: Success.</message>
+</record>
+<record>
+  <date>2018-02-10T01:02:05</date>
+  <millis>1518204725604</millis>
+  <sequence>893</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>FileTab removed: Success.</message>
+</record>
+<record>
+  <date>2018-02-10T01:02:05</date>
+  <millis>1518204725604</millis>
+  <sequence>894</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>File close: Success.</message>
+</record>
+<record>
+  <date>2018-02-10T01:02:05</date>
+  <millis>1518204725606</millis>
+  <sequence>895</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>File changed. Ask before closing.</message>
+</record>
+<record>
+  <date>2018-02-10T01:02:06</date>
+  <millis>1518204726351</millis>
+  <sequence>896</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>We save known file init.lua</message>
+</record>
+<record>
+  <date>2018-02-10T01:02:06</date>
+  <millis>1518204726352</millis>
+  <sequence>897</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Try to saving file init.lua ...</message>
+</record>
+<record>
+  <date>2018-02-10T01:02:06</date>
+  <millis>1518204726354</millis>
+  <sequence>898</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Save file init.lua: Success.</message>
+</record>
+<record>
+  <date>2018-02-10T01:02:06</date>
+  <millis>1518204726386</millis>
+  <sequence>899</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>FileTab removed: Success.</message>
+</record>
+<record>
+  <date>2018-02-10T01:02:06</date>
+  <millis>1518204726386</millis>
+  <sequence>900</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>File close: Success.</message>
+</record>
+<record>
+  <date>2018-02-10T01:02:06</date>
+  <millis>1518204726389</millis>
+  <sequence>901</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>File changed. Ask before closing.</message>
+</record>
+<record>
+  <date>2018-02-10T01:02:07</date>
+  <millis>1518204727199</millis>
+  <sequence>902</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>We save known file i2c.lua</message>
+</record>
+<record>
+  <date>2018-02-10T01:02:07</date>
+  <millis>1518204727200</millis>
+  <sequence>903</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Try to saving file i2c.lua ...</message>
+</record>
+<record>
+  <date>2018-02-10T01:02:07</date>
+  <millis>1518204727206</millis>
+  <sequence>904</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Save file i2c.lua: Success.</message>
+</record>
+<record>
+  <date>2018-02-10T01:02:07</date>
+  <millis>1518204727260</millis>
+  <sequence>905</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>FileTab cleared: Success.</message>
+</record>
+<record>
+  <date>2018-02-10T01:02:07</date>
+  <millis>1518204727261</millis>
+  <sequence>906</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>File close: Success.</message>
+</record>
+</log>
