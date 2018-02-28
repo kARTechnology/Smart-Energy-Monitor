@@ -2,8 +2,8 @@
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
-  <date>2018-02-20T13:13:18</date>
-  <millis>1519112598682</millis>
+  <date>2018-02-28T15:35:10</date>
+  <millis>1519812310181</millis>
   <sequence>6</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -13,8 +13,8 @@
   <message>Load saved settings: Firmware:NodeMCU</message>
 </record>
 <record>
-  <date>2018-02-20T13:13:18</date>
-  <millis>1519112598698</millis>
+  <date>2018-02-28T15:35:10</date>
+  <millis>1519812310218</millis>
   <sequence>7</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -24,8 +24,8 @@
   <message>Snippets: loading...</message>
 </record>
 <record>
-  <date>2018-02-20T13:13:18</date>
-  <millis>1519112598713</millis>
+  <date>2018-02-28T15:35:10</date>
+  <millis>1519812310227</millis>
   <sequence>8</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -35,8 +35,8 @@
   <message>Snippets load: Success.</message>
 </record>
 <record>
-  <date>2018-02-20T13:13:18</date>
-  <millis>1519112598760</millis>
+  <date>2018-02-28T15:35:10</date>
+  <millis>1519812310270</millis>
   <sequence>9</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -46,8 +46,8 @@
   <message>Set new color theme: Success.</message>
 </record>
 <record>
-  <date>2018-02-20T13:13:18</date>
-  <millis>1519112598776</millis>
+  <date>2018-02-28T15:35:10</date>
+  <millis>1519812310276</millis>
   <sequence>10</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -57,8 +57,8 @@
   <message>Load saved settings: DONE.</message>
 </record>
 <record>
-  <date>2018-02-20T13:13:18</date>
-  <millis>1519112598776</millis>
+  <date>2018-02-28T15:35:10</date>
+  <millis>1519812310278</millis>
   <sequence>11</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -68,8 +68,8 @@
   <message>Snippets: loading...</message>
 </record>
 <record>
-  <date>2018-02-20T13:13:18</date>
-  <millis>1519112598791</millis>
+  <date>2018-02-28T15:35:10</date>
+  <millis>1519812310282</millis>
   <sequence>12</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -79,8 +79,8 @@
   <message>Snippets load: Success.</message>
 </record>
 <record>
-  <date>2018-02-20T13:13:19</date>
-  <millis>1519112599213</millis>
+  <date>2018-02-28T15:35:10</date>
+  <millis>1519812310542</millis>
   <sequence>13</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -90,31 +90,20 @@
   <message>Scan system...</message>
 </record>
 <record>
-  <date>2018-02-20T13:13:19</date>
-  <millis>1519112599229</millis>
+  <date>2018-02-28T15:35:10</date>
+  <millis>1519812310551</millis>
   <sequence>14</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
   <method>log</method>
   <thread>16</thread>
-  <message>found COM9</message>
+  <message>Could not find any serial port. Please, connect device and ReScan</message>
 </record>
 <record>
-  <date>2018-02-20T13:13:19</date>
-  <millis>1519112599229</millis>
+  <date>2018-02-28T15:35:10</date>
+  <millis>1519812310553</millis>
   <sequence>15</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>found last saved serial port COM10</message>
-</record>
-<record>
-  <date>2018-02-20T13:13:19</date>
-  <millis>1519112599245</millis>
-  <sequence>16</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
@@ -123,2591 +112,9 @@
   <message>Scan done.</message>
 </record>
 <record>
-  <date>2018-02-20T13:13:21</date>
-  <millis>1519112601808</millis>
-  <sequence>17</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>Serial port COM10 save as default.</message>
-</record>
-<record>
-  <date>2018-02-20T13:13:21</date>
-  <millis>1519112601808</millis>
-  <sequence>18</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>Baud rate 115200 save as default.</message>
-</record>
-<record>
-  <date>2018-02-20T13:13:21</date>
-  <millis>1519112601808</millis>
-  <sequence>19</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>Try to open port COM10, baud 115200, 8N1</message>
-</record>
-<record>
-  <date>2018-02-20T13:13:21</date>
-  <millis>1519112601887</millis>
-  <sequence>20</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>Open port COM10 - Success.</message>
-</record>
-<record>
-  <date>2018-02-20T13:17:55</date>
-  <millis>1519112875282</millis>
-  <sequence>21</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>Try to open file init.lua</message>
-</record>
-<record>
-  <date>2018-02-20T13:17:55</date>
-  <millis>1519112875283</millis>
-  <sequence>22</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>File name: C:\Users\Karthik\Documents\GitHub\Smart-Energy-Monitor\ESP\Program\init.lua</message>
-</record>
-<record>
-  <date>2018-02-20T13:17:55</date>
-  <millis>1519112875288</millis>
-  <sequence>23</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>Try to load file init.lua</message>
-</record>
-<record>
-  <date>2018-02-20T13:17:55</date>
-  <millis>1519112875401</millis>
-  <sequence>24</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>Loading init.lua: Success.</message>
-</record>
-<record>
-  <date>2018-02-20T13:17:55</date>
-  <millis>1519112875405</millis>
-  <sequence>25</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>Open "init.lua": Success.</message>
-</record>
-<record>
-  <date>2018-02-20T13:18:05</date>
-  <millis>1519112885502</millis>
-  <sequence>26</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>We save known file init.lua</message>
-</record>
-<record>
-  <date>2018-02-20T13:18:05</date>
-  <millis>1519112885503</millis>
-  <sequence>27</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>Try to saving file init.lua ...</message>
-</record>
-<record>
-  <date>2018-02-20T13:18:05</date>
-  <millis>1519112885506</millis>
-  <sequence>28</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>Save file init.lua: Success.</message>
-</record>
-<record>
-  <date>2018-02-20T13:18:05</date>
-  <millis>1519112885537</millis>
-  <sequence>29</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>FileSaveESP: Try to save file to ESP...</message>
-</record>
-<record>
-  <date>2018-02-20T13:18:05</date>
-  <millis>1519112885539</millis>
-  <sequence>30</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>FileSaveESP-Turbo: Try to save file to ESP in Turbo Mode...</message>
-</record>
-<record>
-  <date>2018-02-20T13:18:05</date>
-  <millis>1519112885549</millis>
-  <sequence>31</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>DataTurboSender: start "Smart Mode"</message>
-</record>
-<record>
-  <date>2018-02-20T13:18:05</date>
-  <millis>1519112885550</millis>
-  <sequence>32</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>FileSaveESP-Turbo: Starting...</message>
-</record>
-<record>
-  <date>2018-02-20T13:18:05</date>
-  <millis>1519112885655</millis>
-  <sequence>33</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>sending:local FILE="init.lua" file.remove(FILE) file.open(FILE,"w+") uart.setup(0,115200,8,0,1,0)</message>
-</record>
-<record>
-  <date>2018-02-20T13:18:05</date>
-  <millis>1519112885665</millis>
-  <sequence>34</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>29</thread>
-  <message>recv:local FILE="init.lua" file.remove(FILE) file.open(FILE,"w+") uart.setup(0,115200,8,0,1,0)&lt;CR&gt;&lt;LF&gt;</message>
-</record>
-<record>
-  <date>2018-02-20T13:18:05</date>
-  <millis>1519112885704</millis>
-  <sequence>35</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>29</thread>
-  <message>recv:&gt; </message>
-</record>
-<record>
-  <date>2018-02-20T13:18:05</date>
-  <millis>1519112885811</millis>
-  <sequence>36</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>sending:ESP_Receiver=function(rcvBuf) if string.match(rcvBuf,"^ESP_cmd_close")==nil then file.write(string.gsub(rcvBuf, '\r', '')) uart.write(0, "&gt; ") else uart.on("data") </message>
-</record>
-<record>
-  <date>2018-02-20T13:18:05</date>
-  <millis>1519112885834</millis>
-  <sequence>37</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>29</thread>
-  <message>recv:&gt;&gt; </message>
-</record>
-<record>
-  <date>2018-02-20T13:18:05</date>
-  <millis>1519112885949</millis>
-  <sequence>38</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>sending:file.flush() file.close() FILE=nil rcvBuf=nil ESP_Receiver=nil uart.setup(0,115200,8,0,1,1) str="\r\n--Done--\r\n&gt; " print(str) str=nil collectgarbage() end end uart.on("data",'\r',ESP_Receiver,0)</message>
-</record>
-<record>
-  <date>2018-02-20T13:18:05</date>
-  <millis>1519112885952</millis>
-  <sequence>39</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>29</thread>
-  <message>recv:Wifi - Disconnect reason: 201(NO_AP_FOUND)&lt;CR&gt;&lt;LF&gt;</message>
-</record>
-<record>
-  <date>2018-02-20T13:18:05</date>
-  <millis>1519112885984</millis>
-  <sequence>40</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>29</thread>
-  <message>recv:&gt; </message>
-</record>
-<record>
-  <date>2018-02-20T13:18:06</date>
-  <millis>1519112886099</millis>
-  <sequence>41</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>sending:print("init begin")
-dofile("i2c.lua") 
-dofile("wifi.lua") 
-------------------
-
-print("Startup will resume momentarily, you have 10 seconds to start endusersetup.")
-  
-tmr.create():alarm(10000, tmr.ALARM_SINGLE, function()
-if(recvMessage() == "endusersetu</message>
-</record>
-<record>
-  <date>2018-02-20T13:18:06</date>
-  <millis>1519112886115</millis>
-  <sequence>42</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>29</thread>
-  <message>recv:&gt; </message>
-</record>
-<record>
-  <date>2018-02-20T13:18:06</date>
-  <millis>1519112886248</millis>
-  <sequence>43</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>sending:p") 
-    then 
-        print("endusersetup started")
-        enduser_setup.start(
-        function() 
-            print("endusersetup success")
-            print("Connected to wifi as:" .. wifi.sta.getip())
-            dofile("mqtt.lua")
-        end, 
-  </message>
-</record>
-<record>
-  <date>2018-02-20T13:18:06</date>
-  <millis>1519112886282</millis>
-  <sequence>44</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>29</thread>
-  <message>recv:&gt; </message>
-</record>
-<record>
-  <date>2018-02-20T13:18:06</date>
-  <millis>1519112886397</millis>
-  <sequence>45</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>sending:      function(err, str) print("enduser_setup: Err #" .. err .. ": " .. str)end,
-            print -- Lua print function can serve as the debug callback
-        )      
-    else     
-        print("normal startup")
-        dofile("mqtt.lua") 
-    end
-end</message>
-</record>
-<record>
-  <date>2018-02-20T13:18:06</date>
-  <millis>1519112886430</millis>
-  <sequence>46</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>29</thread>
-  <message>recv:&gt; </message>
-</record>
-<record>
-  <date>2018-02-20T13:18:06</date>
-  <millis>1519112886552</millis>
-  <sequence>47</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>sending:)
-
-print("init end")
-</message>
-</record>
-<record>
-  <date>2018-02-20T13:18:06</date>
-  <millis>1519112886566</millis>
-  <sequence>48</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>29</thread>
-  <message>recv:&gt; </message>
-</record>
-<record>
-  <date>2018-02-20T13:18:06</date>
-  <millis>1519112886681</millis>
-  <sequence>49</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>sending:ESP_cmd_close</message>
-</record>
-<record>
-  <date>2018-02-20T13:18:06</date>
-  <millis>1519112886698</millis>
-  <sequence>50</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>29</thread>
-  <message>recv:&lt;CR&gt;&lt;LF&gt;--Done--&lt;CR&gt;&lt;LF&gt;&gt; &lt;CR&gt;&lt;LF&gt;</message>
-</record>
-<record>
-  <date>2018-02-20T13:18:06</date>
-  <millis>1519112886813</millis>
-  <sequence>51</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>sending:&lt;CR&gt;&lt;LF&gt;</message>
-</record>
-<record>
-  <date>2018-02-20T13:18:06</date>
-  <millis>1519112886815</millis>
-  <sequence>52</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>29</thread>
-  <message>recv:&lt;CR&gt;&lt;LF&gt;&gt; &lt;CR&gt;&lt;LF&gt;&gt; </message>
-</record>
-<record>
-  <date>2018-02-20T13:18:06</date>
-  <millis>1519112886933</millis>
-  <sequence>53</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>sending:dofile("init.lua")</message>
-</record>
-<record>
-  <date>2018-02-20T13:18:06</date>
-  <millis>1519112886937</millis>
-  <sequence>54</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>29</thread>
-  <message>recv:dofile("init.lua")&lt;CR&gt;&lt;LF&gt;</message>
-</record>
-<record>
-  <date>2018-02-20T13:18:06</date>
-  <millis>1519112886963</millis>
-  <sequence>55</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>29</thread>
-  <message>recv:init begin&lt;CR&gt;&lt;LF&gt;</message>
-</record>
-<record>
-  <date>2018-02-20T13:18:06</date>
-  <millis>1519112886982</millis>
-  <sequence>56</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>29</thread>
-  <message>recv:i2c setup start&lt;CR&gt;&lt;LF&gt;</message>
-</record>
-<record>
-  <date>2018-02-20T13:18:06</date>
-  <millis>1519112886989</millis>
-  <sequence>57</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>29</thread>
-  <message>recv:i2c setup end&lt;CR&gt;&lt;LF&gt;</message>
-</record>
-<record>
-  <date>2018-02-20T13:18:07</date>
-  <millis>1519112887014</millis>
-  <sequence>58</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>29</thread>
-  <message>recv:wifi setup start&lt;CR&gt;&lt;LF&gt;</message>
-</record>
-<record>
-  <date>2018-02-20T13:18:07</date>
-  <millis>1519112887022</millis>
-  <sequence>59</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>29</thread>
-  <message>recv:wifi setup end&lt;CR&gt;&lt;LF&gt;</message>
-</record>
-<record>
-  <date>2018-02-20T13:18:07</date>
-  <millis>1519112887032</millis>
-  <sequence>60</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>29</thread>
-  <message>recv:Startup will resume momentarily, you have 10 seconds to start endusersetup.&lt;CR&gt;&lt;LF&gt;init end&lt;CR&gt;&lt;LF&gt;</message>
-</record>
-<record>
-  <date>2018-02-20T13:18:07</date>
-  <millis>1519112887034</millis>
-  <sequence>61</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>29</thread>
-  <message>recv:&gt; </message>
-</record>
-<record>
-  <date>2018-02-20T13:18:07</date>
-  <millis>1519112887058</millis>
-  <sequence>62</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>29</thread>
-  <message>Operation done. Duration = 1517 ms</message>
-</record>
-<record>
-  <date>2018-02-20T13:18:56</date>
-  <millis>1519112936002</millis>
-  <sequence>63</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>We save known file init.lua</message>
-</record>
-<record>
-  <date>2018-02-20T13:18:56</date>
-  <millis>1519112936003</millis>
-  <sequence>64</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>Try to saving file init.lua ...</message>
-</record>
-<record>
-  <date>2018-02-20T13:18:56</date>
-  <millis>1519112936005</millis>
-  <sequence>65</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>Save file init.lua: Success.</message>
-</record>
-<record>
-  <date>2018-02-20T13:18:56</date>
-  <millis>1519112936035</millis>
-  <sequence>66</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>FileSaveESP: Try to save file to ESP...</message>
-</record>
-<record>
-  <date>2018-02-20T13:18:56</date>
-  <millis>1519112936036</millis>
-  <sequence>67</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>FileSaveESP-Turbo: Try to save file to ESP in Turbo Mode...</message>
-</record>
-<record>
-  <date>2018-02-20T13:18:56</date>
-  <millis>1519112936045</millis>
-  <sequence>68</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>DataTurboSender: start "Smart Mode"</message>
-</record>
-<record>
-  <date>2018-02-20T13:18:56</date>
-  <millis>1519112936046</millis>
-  <sequence>69</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>FileSaveESP-Turbo: Starting...</message>
-</record>
-<record>
-  <date>2018-02-20T13:18:56</date>
-  <millis>1519112936152</millis>
-  <sequence>70</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>sending:local FILE="init.lua" file.remove(FILE) file.open(FILE,"w+") uart.setup(0,115200,8,0,1,0)</message>
-</record>
-<record>
-  <date>2018-02-20T13:18:57</date>
-  <millis>1519112937999</millis>
-  <sequence>71</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>Operation done. Duration = 1963 ms</message>
-</record>
-<record>
-  <date>2018-02-20T13:18:58</date>
-  <millis>1519112938251</millis>
-  <sequence>72</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>We save known file init.lua</message>
-</record>
-<record>
-  <date>2018-02-20T13:18:58</date>
-  <millis>1519112938252</millis>
-  <sequence>73</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>Try to saving file init.lua ...</message>
-</record>
-<record>
-  <date>2018-02-20T13:18:58</date>
-  <millis>1519112938254</millis>
-  <sequence>74</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>Save file init.lua: Success.</message>
-</record>
-<record>
-  <date>2018-02-20T13:18:58</date>
-  <millis>1519112938271</millis>
-  <sequence>75</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>FileSaveESP: Try to save file to ESP...</message>
-</record>
-<record>
-  <date>2018-02-20T13:18:58</date>
-  <millis>1519112938272</millis>
-  <sequence>76</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>FileSaveESP-Turbo: Try to save file to ESP in Turbo Mode...</message>
-</record>
-<record>
-  <date>2018-02-20T13:18:58</date>
-  <millis>1519112938280</millis>
-  <sequence>77</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>DataTurboSender: start "Smart Mode"</message>
-</record>
-<record>
-  <date>2018-02-20T13:18:58</date>
-  <millis>1519112938280</millis>
-  <sequence>78</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>FileSaveESP-Turbo: Starting...</message>
-</record>
-<record>
-  <date>2018-02-20T13:18:58</date>
-  <millis>1519112938388</millis>
-  <sequence>79</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>sending:local FILE="init.lua" file.remove(FILE) file.open(FILE,"w+") uart.setup(0,115200,8,0,1,0)</message>
-</record>
-<record>
-  <date>2018-02-20T13:18:59</date>
-  <millis>1519112939505</millis>
-  <sequence>80</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>Operation done. Duration = 1232 ms</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:01</date>
-  <millis>1519112941143</millis>
-  <sequence>81</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>We save known file init.lua</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:01</date>
-  <millis>1519112941144</millis>
-  <sequence>82</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>Try to saving file init.lua ...</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:01</date>
-  <millis>1519112941145</millis>
-  <sequence>83</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>Save file init.lua: Success.</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:01</date>
-  <millis>1519112941157</millis>
-  <sequence>84</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>FileSaveESP: Try to save file to ESP...</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:01</date>
-  <millis>1519112941158</millis>
-  <sequence>85</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>FileSaveESP-Turbo: Try to save file to ESP in Turbo Mode...</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:01</date>
-  <millis>1519112941166</millis>
-  <sequence>86</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>DataTurboSender: start "Smart Mode"</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:01</date>
-  <millis>1519112941167</millis>
-  <sequence>87</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>FileSaveESP-Turbo: Starting...</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:01</date>
-  <millis>1519112941276</millis>
-  <sequence>88</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>sending:local FILE="init.lua" file.remove(FILE) file.open(FILE,"w+") uart.setup(0,115200,8,0,1,0)</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:01</date>
-  <millis>1519112941721</millis>
-  <sequence>89</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>35</thread>
-  <message>recv:rl lœž| Œlà|Œlìb|Ž‚ì’r’bŒbŒ</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:01</date>
-  <millis>1519112941747</millis>
-  <sequence>90</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>35</thread>
-  <message>recv:ònnžlnnœâìbpìŽlrlrlpònà‚lbnâ|ŒìŽœŽbŒònnî lŒŽl&lt;OK&gt;</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:01</date>
-  <millis>1519112941764</millis>
-  <sequence>91</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>35</thread>
-  <message>recv:?nn</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:01</date>
-  <millis>1519112941765</millis>
-  <sequence>92</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>35</thread>
-  <message>recv:l&lt;OK&gt;nrŽ’’n</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:01</date>
-  <millis>1519112941768</millis>
-  <sequence>93</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>35</thread>
-  <message>recv:blŽlpònàrŒœœâàb</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:01</date>
-  <millis>1519112941770</millis>
-  <sequence>94</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>35</thread>
-  <message>recv:nâ|ŒìlŒŽbŒ</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:01</date>
-  <millis>1519112941772</millis>
-  <sequence>95</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>35</thread>
-  <message>recv:ònnî l&lt;OK&gt;</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:01</date>
-  <millis>1519112941774</millis>
-  <sequence>96</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>35</thread>
-  <message>recv:?nn</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:01</date>
-  <millis>1519112941775</millis>
-  <sequence>97</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>35</thread>
-  <message>recv:ŽlnrŽ’’n</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:01</date>
-  <millis>1519112941779</millis>
-  <sequence>98</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>35</thread>
-  <message>recv:‚bl&lt;OK&gt;pònàrŒœœâàllŽppnâ|lìŒŽbŒ</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:01</date>
-  <millis>1519112941781</millis>
-  <sequence>99</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>35</thread>
-  <message>recv:ònnî Žl&lt;OK&gt;?nn</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:01</date>
-  <millis>1519112941783</millis>
-  <sequence>100</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>35</thread>
-  <message>recv:ŽlnrŽ’’n</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:01</date>
-  <millis>1519112941785</millis>
-  <sequence>101</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>35</thread>
-  <message>recv:bìl&lt;OK&gt;r’’nbìl&lt;OK&gt;</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:01</date>
-  <millis>1519112941817</millis>
-  <sequence>102</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>35</thread>
-  <message>recv:Œâì‚nì</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:01</date>
-  <millis>1519112941828</millis>
-  <sequence>103</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>35</thread>
-  <message>recv:’r‚òn|ìŒlŽprlb’ž|r’lœnà‚nâ l&lt;OK&gt;Œâr’lŒlŒl&lt;OK&gt;Œâr’lìlŒl&lt;OK&gt;Œâr’lŽž Œll&lt;OK&gt;rlŽ‚rlŒ</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:01</date>
-  <millis>1519112941833</millis>
-  <sequence>104</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>35</thread>
-  <message>recv:žâŒbŒŒbp|bp‚ŒŽpžŒŽbìònî€nnâllàâlŽ</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:01</date>
-  <millis>1519112941835</millis>
-  <sequence>105</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>35</thread>
-  <message>recv:ŒlìŽ</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:01</date>
-  <millis>1519112941837</millis>
-  <sequence>106</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>35</thread>
-  <message>recv:lŒŽ€ŒlŽrrl€nü ŒžâŒbllìŽ</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:01</date>
-  <millis>1519112941841</millis>
-  <sequence>107</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>35</thread>
-  <message>recv:bŒžâŒblŒbrlr</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:01</date>
-  <millis>1519112941844</millis>
-  <sequence>108</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>35</thread>
-  <message>recv:&lt;CR&gt;&lt;LF&gt;</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:01</date>
-  <millis>1519112941883</millis>
-  <sequence>109</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>35</thread>
-  <message>recv:&lt;CR&gt;&lt;LF&gt;NodeMCU custom build by frightanic.com&lt;CR&gt;&lt;LF&gt;	branch: master&lt;CR&gt;&lt;LF&gt;	commit: 5073c199c01d4d7bbbcd0ae1f761ecc4687f7217&lt;CR&gt;&lt;LF&gt;	SSL: true&lt;CR&gt;&lt;LF&gt;	modules: enduser_setup,file,gpio,i2c,mqtt,net,node,sjson,tmr,uart,wifi,tls&lt;CR&gt;&lt;LF&gt; build 	built on: 2018-01-11 12:43&lt;CR&gt;&lt;LF&gt; powered by Lua 5.1.4 on SDK 2.1.0(116b762)&lt;CR&gt;&lt;LF&gt;</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:01</date>
-  <millis>1519112941891</millis>
-  <sequence>110</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>35</thread>
-  <message>recv:init begin&lt;CR&gt;&lt;LF&gt;</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:01</date>
-  <millis>1519112941910</millis>
-  <sequence>111</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>35</thread>
-  <message>recv:i2c setup start&lt;CR&gt;&lt;LF&gt;</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:01</date>
-  <millis>1519112941911</millis>
-  <sequence>112</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>35</thread>
-  <message>recv:i2c setup end&lt;CR&gt;&lt;LF&gt;</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:01</date>
-  <millis>1519112941932</millis>
-  <sequence>113</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>35</thread>
-  <message>recv:wifi setup start&lt;CR&gt;&lt;LF&gt;</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:01</date>
-  <millis>1519112941943</millis>
-  <sequence>114</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>35</thread>
-  <message>recv:wifi setup end&lt;CR&gt;&lt;LF&gt;Startup will resume momentarily, you have 10 seconds to start endusersetup.&lt;CR&gt;&lt;LF&gt;init end&lt;CR&gt;&lt;LF&gt;&gt; </message>
-</record>
-<record>
-  <date>2018-02-20T13:19:02</date>
-  <millis>1519112942053</millis>
-  <sequence>115</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>sending:ESP_Receiver=function(rcvBuf) if string.match(rcvBuf,"^ESP_cmd_close")==nil then file.write(string.gsub(rcvBuf, '\r', '')) uart.write(0, "&gt; ") else uart.on("data") </message>
-</record>
-<record>
-  <date>2018-02-20T13:19:02</date>
-  <millis>1519112942069</millis>
-  <sequence>116</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>35</thread>
-  <message>recv:ESP_Receiver=function(rcvBuf) if string.match(rcvBuf,"^ESP_cmd_close")==nil then file.write(string.gsub(rcvBuf, '\r', '')) uart.write(0, "&gt; ") else uart.on("data") &lt;CR&gt;&lt;LF&gt;</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:02</date>
-  <millis>1519112942079</millis>
-  <sequence>117</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>35</thread>
-  <message>recv:&gt;&gt; </message>
-</record>
-<record>
-  <date>2018-02-20T13:19:02</date>
-  <millis>1519112942177</millis>
-  <sequence>118</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>sending:file.flush() file.close() FILE=nil rcvBuf=nil ESP_Receiver=nil uart.setup(0,115200,8,0,1,1) str="\r\n--Done--\r\n&gt; " print(str) str=nil collectgarbage() end end uart.on("data",'\r',ESP_Receiver,0)</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:02</date>
-  <millis>1519112942196</millis>
-  <sequence>119</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>35</thread>
-  <message>recv:file.flush() file.close() FILE=nil rcvBuf=nil ESP_Receiver=nil uart.setup(0,115200,8,0,1,1) str="\r\n--Done--\r\n&gt; " print(str) str=nil collectgarbage() end end uart.on("data",'\r',ESP_Receiver,0)&lt;CR&gt;&lt;LF&gt;</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:02</date>
-  <millis>1519112942216</millis>
-  <sequence>120</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>35</thread>
-  <message>recv:&gt; </message>
-</record>
-<record>
-  <date>2018-02-20T13:19:02</date>
-  <millis>1519112942302</millis>
-  <sequence>121</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>sending:print("init begin")
-dofile("i2c.lua") 
-dofile("wifi.lua") 
-------------------
-
-print("Startup will resume momentarily, you have 10 seconds to start endusersetup.")
-  
-tmr.create():alarm(10000, tmr.ALARM_SINGLE, function()
-if(recvMessage() == "endusersetu</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:02</date>
-  <millis>1519112942343</millis>
-  <sequence>122</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>35</thread>
-  <message>recv:PANIC: unprotected error in call to Lua API (stdin:1: open a file first)&lt;CR&gt;&lt;LF&gt;</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:03</date>
-  <millis>1519112943252</millis>
-  <sequence>123</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>Operation done. Duration = 2094 ms</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:03</date>
-  <millis>1519112943884</millis>
-  <sequence>124</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>We save known file init.lua</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:03</date>
-  <millis>1519112943885</millis>
-  <sequence>125</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>Try to saving file init.lua ...</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:03</date>
-  <millis>1519112943886</millis>
-  <sequence>126</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>Save file init.lua: Success.</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:03</date>
-  <millis>1519112943899</millis>
-  <sequence>127</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>FileSaveESP: Try to save file to ESP...</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:03</date>
-  <millis>1519112943900</millis>
-  <sequence>128</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>FileSaveESP-Turbo: Try to save file to ESP in Turbo Mode...</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:03</date>
-  <millis>1519112943908</millis>
-  <sequence>129</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>DataTurboSender: start "Smart Mode"</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:03</date>
-  <millis>1519112943909</millis>
-  <sequence>130</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>FileSaveESP-Turbo: Starting...</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:04</date>
-  <millis>1519112944010</millis>
-  <sequence>131</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>sending:local FILE="init.lua" file.remove(FILE) file.open(FILE,"w+") uart.setup(0,115200,8,0,1,0)</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:04</date>
-  <millis>1519112944895</millis>
-  <sequence>132</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>Operation done. Duration = 994 ms</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:06</date>
-  <millis>1519112946605</millis>
-  <sequence>133</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>We save known file init.lua</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:06</date>
-  <millis>1519112946605</millis>
-  <sequence>134</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>Try to saving file init.lua ...</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:06</date>
-  <millis>1519112946607</millis>
-  <sequence>135</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>Save file init.lua: Success.</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:06</date>
-  <millis>1519112946618</millis>
-  <sequence>136</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>FileSaveESP: Try to save file to ESP...</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:06</date>
-  <millis>1519112946619</millis>
-  <sequence>137</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>FileSaveESP-Turbo: Try to save file to ESP in Turbo Mode...</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:06</date>
-  <millis>1519112946627</millis>
-  <sequence>138</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>DataTurboSender: start "Smart Mode"</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:06</date>
-  <millis>1519112946628</millis>
-  <sequence>139</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>FileSaveESP-Turbo: Starting...</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:06</date>
-  <millis>1519112946743</millis>
-  <sequence>140</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>sending:local FILE="init.lua" file.remove(FILE) file.open(FILE,"w+") uart.setup(0,115200,8,0,1,0)</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:06</date>
-  <millis>1519112946752</millis>
-  <sequence>141</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>39</thread>
-  <message>recv:local FILE="init.lua" file.remove(FILE) file.open(FILE,w+") uart.setup(0,115200,8,0,1,0)&lt;CR&gt;&lt;LF&gt;</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:06</date>
-  <millis>1519112946790</millis>
-  <sequence>142</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>39</thread>
-  <message>recv:&gt; </message>
-</record>
-<record>
-  <date>2018-02-20T13:19:06</date>
-  <millis>1519112946902</millis>
-  <sequence>143</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>sending:ESP_Receiver=function(rcvBuf) if string.match(rcvBuf,"^ESP_cmd_close")==nil then file.write(string.gsub(rcvBuf, '\r', '')) uart.write(0, "&gt; ") else uart.on("data") </message>
-</record>
-<record>
-  <date>2018-02-20T13:19:06</date>
-  <millis>1519112946928</millis>
-  <sequence>144</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>39</thread>
-  <message>recv:&gt;&gt; </message>
-</record>
-<record>
-  <date>2018-02-20T13:19:07</date>
-  <millis>1519112947044</millis>
-  <sequence>145</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>sending:file.flush() file.close() FILE=nil rcvBuf=nil ESP_Receiver=nil uart.setup(0,115200,8,0,1,1) str="\r\n--Done--\r\n&gt; " print(str) str=nil collectgarbage() end end uart.on("data",'\r',ESP_Receiver,0)</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:07</date>
-  <millis>1519112947082</millis>
-  <sequence>146</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>39</thread>
-  <message>recv:&gt; </message>
-</record>
-<record>
-  <date>2018-02-20T13:19:07</date>
-  <millis>1519112947184</millis>
-  <sequence>147</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>sending:print("init begin")
-dofile("i2c.lua") 
-dofile("wifi.lua") 
-------------------
-
-print("Startup will resume momentarily, you have 10 seconds to start endusersetup.")
-  
-tmr.create():alarm(10000, tmr.ALARM_SINGLE, function()
-if(recvMessage() == "endusersetu</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:07</date>
-  <millis>1519112947213</millis>
-  <sequence>148</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>39</thread>
-  <message>recv:&gt; </message>
-</record>
-<record>
-  <date>2018-02-20T13:19:07</date>
-  <millis>1519112947323</millis>
-  <sequence>149</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>sending:p") 
-    then 
-        print("endusersetup started")
-        enduser_setup.start(
-        function() 
-            print("endusersetup success")
-            print("Connected to wifi as:" .. wifi.sta.getip())
-            dofile("mqtt.lua")
-        end, 
-  </message>
-</record>
-<record>
-  <date>2018-02-20T13:19:07</date>
-  <millis>1519112947356</millis>
-  <sequence>150</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>39</thread>
-  <message>recv:&gt; </message>
-</record>
-<record>
-  <date>2018-02-20T13:19:07</date>
-  <millis>1519112947459</millis>
-  <sequence>151</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>sending:      function(err, str) print("enduser_setup: Err #" .. err .. ": " .. str)end,
-            print -- Lua print function can serve as the debug callback
-        )      
-    else     
-        print("timeup!!!!")
-        print("normal startup")
-        dof</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:07</date>
-  <millis>1519112947467</millis>
-  <sequence>152</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>39</thread>
-  <message>recv:Wifi - Disconnect reason: 201(NO_AP_FOUND)&lt;CR&gt;&lt;LF&gt;</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:07</date>
-  <millis>1519112947492</millis>
-  <sequence>153</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>39</thread>
-  <message>recv:&gt; </message>
-</record>
-<record>
-  <date>2018-02-20T13:19:07</date>
-  <millis>1519112947608</millis>
-  <sequence>154</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>sending:ile("mqtt.lua") 
-    end
-end)
-
-print("init end")
-</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:07</date>
-  <millis>1519112947614</millis>
-  <sequence>155</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>39</thread>
-  <message>recv:&gt; </message>
-</record>
-<record>
-  <date>2018-02-20T13:19:07</date>
-  <millis>1519112947735</millis>
-  <sequence>156</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>sending:ESP_cmd_close</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:07</date>
-  <millis>1519112947751</millis>
-  <sequence>157</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>39</thread>
-  <message>recv:&lt;CR&gt;&lt;LF&gt;--Done--&lt;CR&gt;&lt;LF&gt;&gt; &lt;CR&gt;&lt;LF&gt;</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:07</date>
-  <millis>1519112947859</millis>
-  <sequence>158</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>sending:&lt;CR&gt;&lt;LF&gt;</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:07</date>
-  <millis>1519112947861</millis>
-  <sequence>159</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>39</thread>
-  <message>recv:&lt;CR&gt;&lt;LF&gt;&gt; &lt;CR&gt;&lt;LF&gt;&gt; </message>
-</record>
-<record>
-  <date>2018-02-20T13:19:07</date>
-  <millis>1519112947968</millis>
-  <sequence>160</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>sending:dofile("init.lua")</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:07</date>
-  <millis>1519112947971</millis>
-  <sequence>161</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>39</thread>
-  <message>recv:dofile("init.lua")&lt;CR&gt;&lt;LF&gt;</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:07</date>
-  <millis>1519112947993</millis>
-  <sequence>162</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>39</thread>
-  <message>recv:init begin&lt;CR&gt;&lt;LF&gt;</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:08</date>
-  <millis>1519112948013</millis>
-  <sequence>163</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>39</thread>
-  <message>recv:i2c setup start&lt;CR&gt;&lt;LF&gt;</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:08</date>
-  <millis>1519112948020</millis>
-  <sequence>164</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>39</thread>
-  <message>recv:i2c setup end&lt;CR&gt;&lt;LF&gt;</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:08</date>
-  <millis>1519112948041</millis>
-  <sequence>165</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>39</thread>
-  <message>recv:wifi setup start&lt;CR&gt;&lt;LF&gt;</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:08</date>
-  <millis>1519112948050</millis>
-  <sequence>166</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>39</thread>
-  <message>recv:wifi setup end&lt;CR&gt;&lt;LF&gt;</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:08</date>
-  <millis>1519112948059</millis>
-  <sequence>167</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>39</thread>
-  <message>recv:Startup will resume momentarily, you have 10 seconds to start endusersetup.&lt;CR&gt;&lt;LF&gt;init end&lt;CR&gt;&lt;LF&gt;</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:08</date>
-  <millis>1519112948061</millis>
-  <sequence>168</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>39</thread>
-  <message>recv:&gt; </message>
-</record>
-<record>
-  <date>2018-02-20T13:19:08</date>
-  <millis>1519112948073</millis>
-  <sequence>169</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>39</thread>
-  <message>Operation done. Duration = 1454 ms</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:08</date>
-  <millis>1519112948814</millis>
-  <sequence>170</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>We save known file init.lua</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:08</date>
-  <millis>1519112948814</millis>
-  <sequence>171</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>Try to saving file init.lua ...</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:08</date>
-  <millis>1519112948816</millis>
-  <sequence>172</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>Save file init.lua: Success.</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:08</date>
-  <millis>1519112948829</millis>
-  <sequence>173</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>FileSaveESP: Try to save file to ESP...</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:08</date>
-  <millis>1519112948830</millis>
-  <sequence>174</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>FileSaveESP-Turbo: Try to save file to ESP in Turbo Mode...</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:08</date>
-  <millis>1519112948837</millis>
-  <sequence>175</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>DataTurboSender: start "Smart Mode"</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:08</date>
-  <millis>1519112948838</millis>
-  <sequence>176</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>FileSaveESP-Turbo: Starting...</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:08</date>
-  <millis>1519112948946</millis>
-  <sequence>177</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>sending:local FILE="init.lua" file.remove(FILE) file.open(FILE,"w+") uart.setup(0,115200,8,0,1,0)</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:08</date>
-  <millis>1519112948956</millis>
-  <sequence>178</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>41</thread>
-  <message>recv:local FILE="init.lua" file.remove(FILE) file.open(FILE,"w+") uart.setup(0,115200,8,0,1,0)&lt;CR&gt;&lt;LF&gt;</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:08</date>
-  <millis>1519112948992</millis>
-  <sequence>179</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>41</thread>
-  <message>recv:&gt; </message>
-</record>
-<record>
-  <date>2018-02-20T13:19:09</date>
-  <millis>1519112949102</millis>
-  <sequence>180</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>sending:ESP_Receiver=function(rcvBuf) if string.match(rcvBuf,"^ESP_cmd_close")==nil then file.write(string.gsub(rcvBuf, '\r', '')) uart.write(0, "&gt; ") else uart.on("data") </message>
-</record>
-<record>
-  <date>2018-02-20T13:19:09</date>
-  <millis>1519112949128</millis>
-  <sequence>181</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>41</thread>
-  <message>recv:&gt;&gt; </message>
-</record>
-<record>
-  <date>2018-02-20T13:19:09</date>
-  <millis>1519112949242</millis>
-  <sequence>182</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>sending:file.flush() file.close() FILE=nil rcvBuf=nil ESP_Receiver=nil uart.setup(0,115200,8,0,1,1) str="\r\n--Done--\r\n&gt; " print(str) str=nil collectgarbage() end end uart.on("data",'\r',ESP_Receiver,0)</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:09</date>
-  <millis>1519112949279</millis>
-  <sequence>183</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>41</thread>
-  <message>recv:&gt; </message>
-</record>
-<record>
-  <date>2018-02-20T13:19:09</date>
-  <millis>1519112949382</millis>
-  <sequence>184</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>sending:print("init begin")
-dofile("i2c.lua") 
-dofile("wifi.lua") 
-------------------
-
-print("Startup will resume momentarily, you have 10 seconds to start endusersetup.")
-  
-tmr.create():alarm(10000, tmr.ALARM_SINGLE, function()
-if(recvMessage() == "endusersetu</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:09</date>
-  <millis>1519112949410</millis>
-  <sequence>185</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>41</thread>
-  <message>recv:&gt; </message>
-</record>
-<record>
-  <date>2018-02-20T13:19:09</date>
-  <millis>1519112949522</millis>
-  <sequence>186</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>sending:p") 
-    then 
-        print("endusersetup started")
-        enduser_setup.start(
-        function() 
-            print("endusersetup success")
-            print("Connected to wifi as:" .. wifi.sta.getip())
-            dofile("mqtt.lua")
-        end, 
-  </message>
-</record>
-<record>
-  <date>2018-02-20T13:19:09</date>
-  <millis>1519112949555</millis>
-  <sequence>187</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>41</thread>
-  <message>recv:&gt; </message>
-</record>
-<record>
-  <date>2018-02-20T13:19:09</date>
-  <millis>1519112949662</millis>
-  <sequence>188</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>sending:      function(err, str) print("enduser_setup: Err #" .. err .. ": " .. str)end,
-            print -- Lua print function can serve as the debug callback
-        )      
-    else     
-        print("timeup!!!!")
-        print("normal startup")
-        dof</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:09</date>
-  <millis>1519112949695</millis>
-  <sequence>189</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>41</thread>
-  <message>recv:&gt; </message>
-</record>
-<record>
-  <date>2018-02-20T13:19:09</date>
-  <millis>1519112949801</millis>
-  <sequence>190</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>sending:ile("mqtt.lua") 
-    end
-end)
-
-print("init end")
-</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:09</date>
-  <millis>1519112949821</millis>
-  <sequence>191</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>41</thread>
-  <message>recv:Wifi - Disconnect reason: 201(NO_AP_FOUND)&lt;CR&gt;&lt;LF&gt;</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:09</date>
-  <millis>1519112949927</millis>
-  <sequence>192</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>41</thread>
-  <message>recv:&gt; </message>
-</record>
-<record>
-  <date>2018-02-20T13:19:10</date>
-  <millis>1519112950034</millis>
-  <sequence>193</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>sending:ESP_cmd_close</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:10</date>
-  <millis>1519112950050</millis>
-  <sequence>194</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>41</thread>
-  <message>recv:&lt;CR&gt;&lt;LF&gt;--Done--&lt;CR&gt;&lt;LF&gt;&gt; &lt;CR&gt;&lt;LF&gt;</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:10</date>
-  <millis>1519112950158</millis>
-  <sequence>195</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>sending:&lt;CR&gt;&lt;LF&gt;</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:10</date>
-  <millis>1519112950160</millis>
-  <sequence>196</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>41</thread>
-  <message>recv:&lt;CR&gt;&lt;LF&gt;&gt; &lt;CR&gt;&lt;LF&gt;&gt; </message>
-</record>
-<record>
-  <date>2018-02-20T13:19:10</date>
-  <millis>1519112950267</millis>
-  <sequence>197</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>sending:dofile("init.lua")</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:10</date>
-  <millis>1519112950270</millis>
-  <sequence>198</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>41</thread>
-  <message>recv:dofile("init.lua")&lt;CR&gt;&lt;LF&gt;</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:10</date>
-  <millis>1519112950293</millis>
-  <sequence>199</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>41</thread>
-  <message>recv:init begin&lt;CR&gt;&lt;LF&gt;</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:10</date>
-  <millis>1519112950314</millis>
-  <sequence>200</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>41</thread>
-  <message>recv:i2c setup start&lt;CR&gt;&lt;LF&gt;</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:10</date>
-  <millis>1519112950321</millis>
-  <sequence>201</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>41</thread>
-  <message>recv:i2c setup end&lt;CR&gt;&lt;LF&gt;</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:10</date>
-  <millis>1519112950342</millis>
-  <sequence>202</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>41</thread>
-  <message>recv:wifi setup start&lt;CR&gt;&lt;LF&gt;</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:10</date>
-  <millis>1519112950351</millis>
-  <sequence>203</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>41</thread>
-  <message>recv:wifi setup end&lt;CR&gt;&lt;LF&gt;</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:10</date>
-  <millis>1519112950360</millis>
-  <sequence>204</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>41</thread>
-  <message>recv:Startup will resume momentarily, you have 10 seconds to start endusersetup.&lt;CR&gt;&lt;LF&gt;init end&lt;CR&gt;&lt;LF&gt;</message>
-</record>
-<record>
-  <date>2018-02-20T13:19:10</date>
-  <millis>1519112950362</millis>
-  <sequence>205</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>41</thread>
-  <message>recv:&gt; </message>
-</record>
-<record>
-  <date>2018-02-20T13:19:10</date>
-  <millis>1519112950376</millis>
-  <sequence>206</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>41</thread>
-  <message>Operation done. Duration = 1546 ms</message>
-</record>
-<record>
-  <date>2018-02-20T13:20:55</date>
-  <millis>1519113055744</millis>
-  <sequence>207</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>We save known file init.lua</message>
-</record>
-<record>
-  <date>2018-02-20T13:20:55</date>
-  <millis>1519113055744</millis>
-  <sequence>208</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>Try to saving file init.lua ...</message>
-</record>
-<record>
-  <date>2018-02-20T13:20:55</date>
-  <millis>1519113055745</millis>
-  <sequence>209</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>Save file init.lua: Success.</message>
-</record>
-<record>
-  <date>2018-02-20T13:20:55</date>
-  <millis>1519113055770</millis>
-  <sequence>210</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>FileSaveESP: Try to save file to ESP...</message>
-</record>
-<record>
-  <date>2018-02-20T13:20:55</date>
-  <millis>1519113055770</millis>
-  <sequence>211</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>FileSaveESP-Turbo: Try to save file to ESP in Turbo Mode...</message>
-</record>
-<record>
-  <date>2018-02-20T13:20:55</date>
-  <millis>1519113055779</millis>
-  <sequence>212</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>DataTurboSender: start "Smart Mode"</message>
-</record>
-<record>
-  <date>2018-02-20T13:20:55</date>
-  <millis>1519113055779</millis>
-  <sequence>213</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>FileSaveESP-Turbo: Starting...</message>
-</record>
-<record>
-  <date>2018-02-20T13:20:55</date>
-  <millis>1519113055887</millis>
-  <sequence>214</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>sending:local FILE="init.lua" file.remove(FILE) file.open(FILE,"w+") uart.setup(0,115200,8,0,1,0)</message>
-</record>
-<record>
-  <date>2018-02-20T13:20:55</date>
-  <millis>1519113055896</millis>
-  <sequence>215</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>43</thread>
-  <message>recv:local FILE="init.lua" file.remove(FILE) file.open(FILE,"w+") uart.setup(0,115200,8,0,1,0)&lt;CR&gt;&lt;LF&gt;</message>
-</record>
-<record>
-  <date>2018-02-20T13:20:55</date>
-  <millis>1519113055934</millis>
-  <sequence>216</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>43</thread>
-  <message>recv:&gt; </message>
-</record>
-<record>
-  <date>2018-02-20T13:20:56</date>
-  <millis>1519113056042</millis>
-  <sequence>217</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>sending:ESP_Receiver=function(rcvBuf) if string.match(rcvBuf,"^ESP_cmd_close")==nil then file.write(string.gsub(rcvBuf, '\r', '')) uart.write(0, "&gt; ") else uart.on("data") </message>
-</record>
-<record>
-  <date>2018-02-20T13:20:56</date>
-  <millis>1519113056070</millis>
-  <sequence>218</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>43</thread>
-  <message>recv:&gt;&gt; </message>
-</record>
-<record>
-  <date>2018-02-20T13:20:56</date>
-  <millis>1519113056182</millis>
-  <sequence>219</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>sending:file.flush() file.close() FILE=nil rcvBuf=nil ESP_Receiver=nil uart.setup(0,115200,8,0,1,1) str="\r\n--Done--\r\n&gt; " print(str) str=nil collectgarbage() end end uart.on("data",'\r',ESP_Receiver,0)</message>
-</record>
-<record>
-  <date>2018-02-20T13:20:56</date>
-  <millis>1519113056221</millis>
-  <sequence>220</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>43</thread>
-  <message>recv:&gt; </message>
-</record>
-<record>
-  <date>2018-02-20T13:20:56</date>
-  <millis>1519113056337</millis>
-  <sequence>221</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>sending:print("init begin")
-dofile("i2c.lua") 
-dofile("wifi.lua") 
-------------------
-
-print("Startup will resume momentarily, you have 10 seconds to start endusersetup.")
-  
-tmr.create():alarm(10000, tmr.ALARM_SINGLE, function()
-if(recvMessage() == "endusersetu</message>
-</record>
-<record>
-  <date>2018-02-20T13:20:56</date>
-  <millis>1519113056366</millis>
-  <sequence>222</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>43</thread>
-  <message>recv:&gt; </message>
-</record>
-<record>
-  <date>2018-02-20T13:20:56</date>
-  <millis>1519113056477</millis>
-  <sequence>223</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>sending:p") 
-    then 
-        print("endusersetup started")
-        enduser_setup.start(
-        function() 
-            print("endusersetup success")
-            dofile("mqtt.lua")
-        end, 
-        function(err, str) print("enduser_setup: Err #" .. err ..</message>
-</record>
-<record>
-  <date>2018-02-20T13:20:56</date>
-  <millis>1519113056511</millis>
-  <sequence>224</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>43</thread>
-  <message>recv:&gt; </message>
-</record>
-<record>
-  <date>2018-02-20T13:20:56</date>
-  <millis>1519113056617</millis>
-  <sequence>225</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>sending: ": " .. str)end,
-            print -- Lua print function can serve as the debug callback
-        )      
-    else     
-        print("timeup!!!!")
-        print("normal startup")
-        dofile("mqtt.lua") 
-    end
-end)
-
-print("init end")
-</message>
-</record>
-<record>
-  <date>2018-02-20T13:20:56</date>
-  <millis>1519113056649</millis>
-  <sequence>226</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>43</thread>
-  <message>recv:&gt; </message>
-</record>
-<record>
-  <date>2018-02-20T13:20:56</date>
-  <millis>1519113056756</millis>
-  <sequence>227</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>sending:ESP_cmd_close</message>
-</record>
-<record>
-  <date>2018-02-20T13:20:56</date>
-  <millis>1519113056773</millis>
-  <sequence>228</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>43</thread>
-  <message>recv:&lt;CR&gt;&lt;LF&gt;--Done--&lt;CR&gt;&lt;LF&gt;&gt; &lt;CR&gt;&lt;LF&gt;</message>
-</record>
-<record>
-  <date>2018-02-20T13:20:56</date>
-  <millis>1519113056881</millis>
-  <sequence>229</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>sending:&lt;CR&gt;&lt;LF&gt;</message>
-</record>
-<record>
-  <date>2018-02-20T13:20:56</date>
-  <millis>1519113056883</millis>
-  <sequence>230</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>43</thread>
-  <message>recv:&lt;CR&gt;&lt;LF&gt;&gt; &lt;CR&gt;&lt;LF&gt;&gt; </message>
-</record>
-<record>
-  <date>2018-02-20T13:20:56</date>
-  <millis>1519113056990</millis>
-  <sequence>231</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>sending:dofile("init.lua")</message>
-</record>
-<record>
-  <date>2018-02-20T13:20:56</date>
-  <millis>1519113056993</millis>
-  <sequence>232</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>43</thread>
-  <message>recv:dofile("init.lua")&lt;CR&gt;&lt;LF&gt;</message>
-</record>
-<record>
-  <date>2018-02-20T13:20:57</date>
-  <millis>1519113057017</millis>
-  <sequence>233</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>43</thread>
-  <message>recv:init begin&lt;CR&gt;&lt;LF&gt;</message>
-</record>
-<record>
-  <date>2018-02-20T13:20:57</date>
-  <millis>1519113057039</millis>
-  <sequence>234</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>43</thread>
-  <message>recv:i2c setup start&lt;CR&gt;&lt;LF&gt;</message>
-</record>
-<record>
-  <date>2018-02-20T13:20:57</date>
-  <millis>1519113057046</millis>
-  <sequence>235</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>43</thread>
-  <message>recv:i2c setup end&lt;CR&gt;&lt;LF&gt;</message>
-</record>
-<record>
-  <date>2018-02-20T13:20:57</date>
-  <millis>1519113057072</millis>
-  <sequence>236</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>43</thread>
-  <message>recv:wifi setup start&lt;CR&gt;&lt;LF&gt;</message>
-</record>
-<record>
-  <date>2018-02-20T13:20:57</date>
-  <millis>1519113057081</millis>
-  <sequence>237</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>43</thread>
-  <message>recv:wifi setup end&lt;CR&gt;&lt;LF&gt;</message>
-</record>
-<record>
-  <date>2018-02-20T13:20:57</date>
-  <millis>1519113057091</millis>
-  <sequence>238</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>43</thread>
-  <message>recv:Startup will resume momentarily, you have 10 seconds to start endusersetup.&lt;CR&gt;&lt;LF&gt;init end&lt;CR&gt;&lt;LF&gt;</message>
-</record>
-<record>
-  <date>2018-02-20T13:20:57</date>
-  <millis>1519113057092</millis>
-  <sequence>239</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>43</thread>
-  <message>recv:&gt; </message>
-</record>
-<record>
-  <date>2018-02-20T13:20:57</date>
-  <millis>1519113057105</millis>
-  <sequence>240</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>43</thread>
-  <message>Operation done. Duration = 1334 ms</message>
-</record>
-<record>
-  <date>2018-02-20T15:16:50</date>
-  <millis>1519120010008</millis>
-  <sequence>241</sequence>
+  <date>2018-02-28T15:35:15</date>
+  <millis>1519812315229</millis>
+  <sequence>16</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
@@ -2716,9 +123,9 @@ print("init end")
   <message>Try to open file mqtt.lua</message>
 </record>
 <record>
-  <date>2018-02-20T15:16:50</date>
-  <millis>1519120010008</millis>
-  <sequence>242</sequence>
+  <date>2018-02-28T15:35:15</date>
+  <millis>1519812315231</millis>
+  <sequence>17</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
@@ -2727,9 +134,9 @@ print("init end")
   <message>File name: C:\Users\Karthik\Documents\GitHub\Smart-Energy-Monitor\ESP\Program\mqtt.lua</message>
 </record>
 <record>
-  <date>2018-02-20T15:16:50</date>
-  <millis>1519120010024</millis>
-  <sequence>243</sequence>
+  <date>2018-02-28T15:35:15</date>
+  <millis>1519812315236</millis>
+  <sequence>18</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
@@ -2738,9 +145,9 @@ print("init end")
   <message>Try to load file mqtt.lua</message>
 </record>
 <record>
-  <date>2018-02-20T15:16:50</date>
-  <millis>1519120010074</millis>
-  <sequence>244</sequence>
+  <date>2018-02-28T15:35:15</date>
+  <millis>1519812315331</millis>
+  <sequence>19</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
@@ -2749,9 +156,9 @@ print("init end")
   <message>Loading mqtt.lua: Success.</message>
 </record>
 <record>
-  <date>2018-02-20T15:16:50</date>
-  <millis>1519120010075</millis>
-  <sequence>245</sequence>
+  <date>2018-02-28T15:35:15</date>
+  <millis>1519812315333</millis>
+  <sequence>20</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
@@ -2760,119 +167,31 @@ print("init end")
   <message>Open "mqtt.lua": Success.</message>
 </record>
 <record>
-  <date>2018-02-20T15:29:17</date>
-  <millis>1519120757037</millis>
-  <sequence>246</sequence>
+  <date>2018-02-28T15:35:55</date>
+  <millis>1519812355494</millis>
+  <sequence>21</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
   <method>log</method>
   <thread>16</thread>
-  <message>Try to open file wifi.lua</message>
+  <message>File changed. Ask before closing.</message>
 </record>
 <record>
-  <date>2018-02-20T15:29:17</date>
-  <millis>1519120757037</millis>
-  <sequence>247</sequence>
+  <date>2018-02-28T15:35:57</date>
+  <millis>1519812357073</millis>
+  <sequence>22</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
   <method>log</method>
   <thread>16</thread>
-  <message>File name: C:\Users\Karthik\Documents\GitHub\Smart-Energy-Monitor\ESP\Program\wifi.lua</message>
+  <message>User select: Close anyway.</message>
 </record>
 <record>
-  <date>2018-02-20T15:29:17</date>
-  <millis>1519120757043</millis>
-  <sequence>248</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>Try to load file wifi.lua</message>
-</record>
-<record>
-  <date>2018-02-20T15:29:17</date>
-  <millis>1519120757079</millis>
-  <sequence>249</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>Loading wifi.lua: Success.</message>
-</record>
-<record>
-  <date>2018-02-20T15:29:17</date>
-  <millis>1519120757079</millis>
-  <sequence>250</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>Open "wifi.lua": Success.</message>
-</record>
-<record>
-  <date>2018-02-20T15:29:22</date>
-  <millis>1519120762290</millis>
-  <sequence>251</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>File init.lua already open, select tab to file init.lua</message>
-</record>
-<record>
-  <date>2018-02-20T15:51:40</date>
-  <millis>1519122100064</millis>
-  <sequence>252</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>FileTab removed: Success.</message>
-</record>
-<record>
-  <date>2018-02-20T15:51:40</date>
-  <millis>1519122100065</millis>
-  <sequence>253</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>File close: Success.</message>
-</record>
-<record>
-  <date>2018-02-20T15:51:40</date>
-  <millis>1519122100069</millis>
-  <sequence>254</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>FileTab removed: Success.</message>
-</record>
-<record>
-  <date>2018-02-20T15:51:40</date>
-  <millis>1519122100070</millis>
-  <sequence>255</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>16</thread>
-  <message>File close: Success.</message>
-</record>
-<record>
-  <date>2018-02-20T15:51:40</date>
-  <millis>1519122100086</millis>
-  <sequence>256</sequence>
+  <date>2018-02-28T15:35:57</date>
+  <millis>1519812357137</millis>
+  <sequence>23</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
@@ -2881,9 +200,9 @@ print("init end")
   <message>FileTab cleared: Success.</message>
 </record>
 <record>
-  <date>2018-02-20T15:51:40</date>
-  <millis>1519122100091</millis>
-  <sequence>257</sequence>
+  <date>2018-02-28T15:35:57</date>
+  <millis>1519812357138</millis>
+  <sequence>24</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
