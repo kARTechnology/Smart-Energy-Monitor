@@ -1,7 +1,11 @@
 print("mqtt setup start");
 sendMessage("01")
 connected=0
-
+r1=0
+r2=0
+r3=0
+kwh1=0
+kwh2=0
 m = mqtt.Client("clientid", 30, "A1E-a3nUoARivVvZb5G0ZucYlX4WPeFyTB", "")
  
 m:on("message", 
@@ -10,10 +14,17 @@ m:on("message",
   print(topic .. ":" ) 
   if data ~= nil then
     print(data) 
-        if( string.match(topic, "s1") ) then    sendMessage("1".. data)
-    elseif( string.match(topic, "s2") ) then    sendMessage("2".. data)
-    elseif( string.match(topic, "s3") ) then    sendMessage("3".. data)
+        if( string.match(topic, "s1") ) then    sendMessage("1".. data); r1=data
+    elseif( string.match(topic, "s2") ) then    sendMessage("2".. data); r2=data
+    elseif( string.match(topic, "s3") ) then    sendMessage("3".. data); r3=data
     elseif( string.match(topic, "s4") ) then    sendMessage("4".. data)
+    elseif( string.match(topic, "kwh1") ) then   
+  if(kwh1==0) then  kwh1=data end
+     
+     
+    elseif( string.match(topic, "kwh2") ) then   
+  if(kwh2==0) then kwh2=data    end
+     
     end 
   end
  end
@@ -36,7 +47,9 @@ function do_mqtt_connect()
             {
               ["/v1.6/devices/sem/s1/lv"]=1,
               ["/v1.6/devices/sem/s2/lv"]=1,
-              ["/v1.6/devices/sem/s3/lv"]=1
+              ["/v1.6/devices/sem/s3/lv"]=1,
+              ["/v1.6/devices/sem/kwh1/lv"]=1,
+              ["/v1.6/devices/sem/kwh2/lv"]=1
             },function(client) print("--subscribe success") end) 
     end,
     handle_mqtt_error)
@@ -45,7 +58,9 @@ end
 do_mqtt_connect()
 print("mqtt setup end");
 
-tmr.alarm(0,5000,1,function()
+timeinterval=5
+
+tmr.alarm(0,timeinterval*1000,1,function()
 if connected==1 then getValues() end
 end)
 
@@ -55,10 +70,18 @@ function getValues()
     msg = recvMessage()
     if(msg=="Waiting for net") then 
         sendMessage("01") 
+        sendMessage("1"..r1) 
+        sendMessage("2"..r2) 
+        sendMessage("3"..r3) 
     else
         val={}
+        
         val.v,val.c1,val.c2,val.m = msg:match("([^,]+),([^,]+),([^,]+),([^,]+)")
-        val=sjson.encode(val)
+       if(kwh1~=0) then kwh1=kwh1+((val.c1*timeinterval)/3600)/1000 val.kwh1=kwh1 end
+        if(kwh2~=0) then kwh2=kwh2+((val.c2*timeinterval)/3600)/1000 val.kwh2=kwh2 end
+ if((tonumber(val.c2)>30 or tonumber(val.c1) > 30 )and val.m=="0") then 
+                                val.m=1; else val.m=0; end 
+        val=sjson.encode(val) 
         if(val~="[]") then
             print(val)
             m:publish("/v1.6/devices/sem", val, 0, 0, function(client) print("sent") end) 
