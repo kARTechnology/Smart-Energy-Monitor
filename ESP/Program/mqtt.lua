@@ -47,9 +47,9 @@ function do_mqtt_connect()
             {
               ["/v1.6/devices/sem/s1/lv"]=1,
               ["/v1.6/devices/sem/s2/lv"]=1,
-              ["/v1.6/devices/sem/s3/lv"]=1,
-              ["/v1.6/devices/sem/kwh1/lv"]=1,
-              ["/v1.6/devices/sem/kwh2/lv"]=1
+              ["/v1.6/devices/sem/s3/lv"]=1--,
+             -- ["/v1.6/devices/sem/kwh1/lv"]=1,
+           --   ["/v1.6/devices/sem/kwh2/lv"]=1
             },function(client) print("--subscribe success") end) 
     end,
     handle_mqtt_error)
@@ -77,8 +77,8 @@ function getValues()
         val={}
         
         val.v,val.c1,val.c2,val.m = msg:match("([^,]+),([^,]+),([^,]+),([^,]+)")
-       if(kwh1~=0) then kwh1=kwh1+((val.c1*timeinterval)/3600)/1000 val.kwh1=kwh1 end
-        if(kwh2~=0) then kwh2=kwh2+((val.c2*timeinterval)/3600)/1000 val.kwh2=kwh2 end
+       if(kwh1~=0 and val.c1~=0) then kwh1=kwh1+((val.c1*timeinterval)/3600)/1000 val.kwh1=kwh1 end
+        if(kwh2~=0 and val.c2~=0) then kwh2=kwh2+((val.c2*timeinterval)/3600)/1000 val.kwh2=kwh2 end
  if((tonumber(val.c2)>30 or tonumber(val.c1) > 30 )and val.m=="0") then 
                                 val.m=1; else val.m=0; end 
         val=sjson.encode(val) 
