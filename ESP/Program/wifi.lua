@@ -1,11 +1,6 @@
 print("wifi setup start");
-wifi_connect_event = function(T) 
-  print("Wifi - Connection to AP("..T.SSID..") established!")
-end
-
-wifi_got_ip_event = function(T) 
-    print("Wifi - IP address is: "..T.IP)
-end
+wifi_connect_event = function(T) print("Wifi-AP("..T.SSID..") Connected!")end
+wifi_got_ip_event  = function(T) print("Wifi-IP address: "..T.IP) end
 
 wifi_disconnect_event = function(T)
   if T.reason == wifi.eventmon.reason.ASSOC_LEAVE then     --the station has disassociated from a previously connected AP

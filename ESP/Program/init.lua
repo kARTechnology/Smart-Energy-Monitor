@@ -18,8 +18,7 @@ if(recvMessage() == "endusersetup")
             print -- Lua print function can serve as the debug callback
         )      
     else     
-        print("timeup!!!!")
-        print("normal startup")
+        print("timeup!!!! normal startup")
         dofile("mqtt.lua") 
     end
 end)

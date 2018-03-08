@@ -1,43 +1,63 @@
 #include <Wire.h>
 #include "EmonLib.h"
 #define VOLT_CAL 350
-const int relayPin1 = 6;
-const int relayPin2 = 7;
-const int relayPin3 = 8;
+
+const int endUserSetupPin = 2;
+const int relayPin1 = 7;
+const int relayPin2 = 8;
+const int relayPin3 = 6;
 const int motionPin = 9;
+
 const int voltagePin = A0;
 const int currentPin1 = A1;
 const int currentPin2 = A2;
-const int endUserSetupPin = 2;
+
 EnergyMonitor emon1;
 volatile int  motion, voltage, current1, current2;
-volatile bool endUserSetup = false;
-bool netConnected = false;
+volatile bool endUserSetup = false, netConnected = false;
 char txt[30]; String str;
 
-void setRelayState(int relaynum, int state) {
-  if (state == 1)     digitalWrite(relaynum, LOW);
-  else if (state == 0)     digitalWrite(relaynum, HIGH);
-}
-float getVoltage() {
-  emon1.calcVI(20, 2000);
-  return emon1.Vrms;
-}
-int  getMotionStatus() {
-  return  digitalRead(motionPin) == true ? 1 : 0;
-}
 void startEndUserSetup() {
   Serial.println("endusersetup initiated by user physically...");
   digitalWrite(LED_BUILTIN, HIGH);
   endUserSetup = true;
 }
+void setRelayState(int relaynum, int state) {
+  if (state == 1)     digitalWrite(relaynum, LOW);
+  else if (state == 0)     digitalWrite(relaynum, HIGH);
+}
+float getVoltage() {
+  emon1.calcVI(20, 500);
+  return emon1.Vrms;
+}
+int  getMotionStatus() {
+  return  digitalRead(motionPin) == true ? 1 : 0;
+}
+float getCurrent(int sensorIn )
+{
+  int readValue;                  //value read from the sensor
+  int maxValue = 0;               // store max value here
+  int minValue = 1024;            // store min value here
+
+  uint32_t start_time = millis();
+  while ((millis() - start_time) < 1000) //sample for 1 Sec
+  {
+    readValue = analogRead(sensorIn);
+    if (readValue > maxValue)   maxValue = readValue;
+    if (readValue < minValue)   minValue = readValue;
+  }
+  double Voltage = ((maxValue - minValue) * 5.0) / 1024.0;
+  double VRMS = (Voltage / 2.0) * 0.707;
+  double AmpsRMS = (VRMS * 1000) / 66; //66=sensitivity for 30A sensor.
+  return AmpsRMS;
+}
 void setup()
 {
-  pinMode(LED_BUILTIN, OUTPUT);
+  pinMode(motionPin, INPUT);
   pinMode(relayPin1, OUTPUT);
   pinMode(relayPin2, OUTPUT);
   pinMode(relayPin3, OUTPUT);
-  pinMode(motionPin, INPUT);
+  pinMode(LED_BUILTIN, OUTPUT);
   setRelayState(relayPin3, 0);
   setRelayState(relayPin2, 0);
   setRelayState(relayPin1, 0);
@@ -52,69 +72,23 @@ void setup()
 void loop()
 {
   voltage =  getVoltage();
-  current1 =  getCurrent(currentPin1) * voltage ;
-  current2 = getCurrent(currentPin2) * voltage;
+  current1 =  digitalRead(relayPin1) == 0 ? (getCurrent(currentPin1) - 0.20) * voltage : 0;
+  current2 = digitalRead(relayPin2) == 0 ? (getCurrent(currentPin2) - 0.20) * voltage : 0;;
   motion = getMotionStatus();
   str = String(voltage) + "," + String(current1) + "," + String(current2) + "," + String(motion);
-  Serial.println(str);
-}
-
-int32_t readVcc()
-{
-  int32_t result = 5000L;
-
-#if defined(__AVR_ATmega32U4__) || defined(__AVR_ATmega1280__) || defined(__AVR_ATmega2560__)
-  ADMUX = _BV(REFS0) | _BV(MUX4) | _BV(MUX3) | _BV(MUX2) | _BV(MUX1);
-#elif defined (__AVR_ATtiny24__) || defined(__AVR_ATtiny44__) || defined(__AVR_ATtiny84__)
-  ADMUX = _BV(MUX5) | _BV(MUX0);
-#elif defined (__AVR_ATtiny25__) || defined(__AVR_ATtiny45__) || defined(__AVR_ATtiny85__)
-  ADMUX = _BV(MUX3) | _BV(MUX2);
-#else
-  ADMUX = _BV(REFS0) | _BV(MUX3) | _BV(MUX2) | _BV(MUX1);
-#endif
-
-#if defined(__AVR__)
-  delay(2);         // Wait for Vref to settle
-  ADCSRA |= _BV(ADSC);    // Convert, result is stored in ADC at end
-  while (bit_is_set(ADCSRA, ADSC)); // measuring
-  result = ADCL; // must read ADCL (low byte) first - it then locks ADCH
-  result |= ADCH << 8; // // unlocks both
-
-  result = 1125300L / result; // Back-calculate AVcc in mV; 1125300 = 1.1*1023*1000
-#endif
-
-  return (result);
-}
-float getCurrent(int sensorIn )
-{
-  const uint8_t timeSampling = 2 * (1000 / 50);
-  int32_t convertedmA;
-  uint16_t sampleMin = 1024, sampleMax = 0;
-  int32_t Vpp, Vcc = readVcc();
-  for (uint32_t timeStart = millis(); millis() - timeStart < timeSampling; )
-  {
-    int16_t sensorValue = analogRead(sensorIn) ;
-    if (sensorValue > sampleMax) sampleMax = sensorValue;
-    if (sensorValue < sampleMin) sampleMin = sensorValue;
-  }
-  Vpp = (((sampleMax - sampleMin) / 2) * Vcc) / 1024L;
-  convertedmA = (707L * Vpp) / 66; // 1/sqrt(2) = 0.7071 = 707.1/1000
-  return (convertedmA / 1000.000);
 }
 
 void receiveEvent(int howMany) //howMany=num. of bytes received
 {
-  int  a, b;
-  a = Wire.read() - '0'; //Convert char to int
-  b = Wire.read() - '0'; //Convert char to int
+  int a = Wire.read() - '0'; //Convert char to int
+  int b = Wire.read() - '0'; //Convert char to int
   Serial.print(F("Received: "));  Serial.print(a);  Serial.print(F("="));  Serial.println(b);
 
-  switch (a)
-  {
+  switch (a)  {
     case 3:   setRelayState(relayPin3, b); break;
     case 2:   setRelayState(relayPin2, b); break;
     case 1:   setRelayState(relayPin1, b); break;
-    case 0:   netConnected = b;                          //set net status
+    case 0:   netConnected = b;
   }
 }
 void requestEvent()

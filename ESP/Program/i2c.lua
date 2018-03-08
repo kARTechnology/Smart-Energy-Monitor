@@ -6,7 +6,6 @@ i2c.setup(id, sda, scl, i2c.SLOW)
 
 function sendMessage(i2cMsg)
     print("--i2c sending message: " .. i2cMsg)
-    
     i2c.start(id)  
     i2c.address(id, 2 ,i2c.TRANSMITTER) 
     i2c.write(id,i2cMsg)  
@@ -26,7 +25,7 @@ function recvMessage()
         print("--i2c received message: "..i2cMsg) 
         return i2cMsg
     else
-        print("--i2c received empty!!!")
+        print("--i2c received empty!!! / comm. fail")
         return ""
     end 
 end

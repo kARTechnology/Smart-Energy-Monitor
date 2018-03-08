@@ -4,3 +4,5 @@
 *.lck
 ESP/Getting Started/ESPlorer-IDE/ESPlorer.Log
 *.Log
+*.Log
+*.1
