@@ -5,8 +5,7 @@ r1=0
 r2=0
 r3=0
 kwh1=0
-kwh2=0
-
+kwh2=0 
 
 m = mqtt.Client("clientid", 30, "A1E-a3nUoARivVvZb5G0ZucYlX4WPeFyTB", "")
  
@@ -51,6 +50,12 @@ function do_mqtt_connect()
               ["/v1.6/devices/sem/kwh1/lv"]=0,
               ["/v1.6/devices/sem/kwh2/lv"]=0
             },function(client) print("--subscribe success") end) 
+            val={}    
+            strength=wifi.sta.getrssi()
+            val.wifisignal=(math.abs(strength)/70)*100 ;
+            val=sjson.encode(val) 
+            print(val)
+            m:publish("/v1.6/devices/sem", val, 0, 0, function(client) print("sent wifisignal: "..strength.." dBm") end) 
     end,
     handle_mqtt_error)
 end
@@ -101,7 +106,7 @@ function getValues()
             val.s2=0
             val.s3=0
         end
-        
+
         if(val~="[]") then
             val=sjson.encode(val) 
             print(val)
