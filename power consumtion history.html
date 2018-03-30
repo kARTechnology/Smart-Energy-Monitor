@@ -2,7 +2,9 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <style>
+
 /* Component styles */
+
 @font-face {
 	font-family: 'Blokk';
 	src: url('../fonts/blokk/BLOKKRegular.eot');
@@ -122,6 +124,7 @@ td.user-name {
 body {
 	font-family: 'Lato', Arial, sans-serif;
 	background: #f8f8f8;
+      overflow: hidden;
 }
 
 
@@ -168,9 +171,11 @@ body {
 }
 
 
+
+
 </style>
 <script>
-    function getMinMaxValue(variableId, token, startDate, EndDate) {
+     function getMinMaxValue(variableId, token, startDate, EndDate) {
       return new Promise(function(resolve, reject) {
         url = "https://things.ubidots.com/api/v1.6/variables/" + variableId + "/statistics/" + "min,max" + "/" + startDate + "/" + EndDate + "/?token=" + token;
         console.log(url);
@@ -188,14 +193,16 @@ body {
     getData = function() {
        getMinMaxValue('5a86cc3b76254276f4b90883', 'A1E-a3nUoARivVvZb5G0ZucYlX4WPeFyTB&', firstDay.getTime(), lastDay.getTime()).then(
         function(res) {
-          $('#kwh1consumed').text(res.max - res.min);
-          $('#kwh1amt').text((res.max - res.min) * 3);
+          var unitrate= $('#unitrate').val()
+          $('#kwh1consumed').text((res.max - res.min).toFixed(4));
+          $('#kwh1amt').text(((res.max - res.min) * unitrate).toFixed(4));
         });
 
       getMinMaxValue('5a8342b7c03f97592b4c009f', 'A1E-a3nUoARivVvZb5G0ZucYlX4WPeFyTB&', firstDay.getTime(), lastDay.getTime()).then(
         function(res) {
-          $('#kwh2consumed').text(res.max - res.min);
-          $('#kwh2amt').text((res.max - res.min) * 3);
+          var unitrate= $('#unitrate').val()
+		  $('#kwh2consumed').text((res.max - res.min).toFixed(4));
+          $('#kwh2amt').text(((res.max - res.min) * unitrate).toFixed(4));
         });
     }
 
@@ -204,7 +211,8 @@ body {
     var lastDay = new Date(date.getFullYear(), date.getMonth() + 1, 0);
 
 
-    $(document).ready(function() {
+    $(document).ready(function() {                $('input[type=datetime-local]').datetimepicker();
+      $('#unitrate').val(3)
       $("#month").val(date.getMonth() + 1);
       $("#year").val(date.getFullYear());
       getData();
@@ -219,8 +227,12 @@ body {
     });
 </script>
 <html>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-datetimepicker/2.5.18/jquery.datetimepicker.css" /> 
+<body>
 Month: <input id="month" type="number" />
 Year: <input id="year" type="number" />
+1kwh: <input id="unitrate" type="number" />rupees
+  <input type="datetime-local"   />
 <button id="go"  >Go</button>
 <table>
   <thead>
@@ -233,15 +245,15 @@ Year: <input id="year" type="number" />
 <tbody>
   <tr>
     <th>1</th>
-    <td id="kwh1consumed"> </td>
-    <td id="kwh1amt"> </td>
+    <td id="kwh1consumed" style="color: #0057ff;"> </td>
+    <td id="kwh1amt" style="color: #0057ff;"> </td>
   </tr>
   <tr>
     <th>2</th>
-    <td id="kwh2consumed"> </td>
-    <td id="kwh2amt"> </td>
+    <td id="kwh2consumed" style="color: #9e00ff;"> </td>
+    <td id="kwh2amt" style="color: #9e00ff;"> </td>
   </tr>
 </tbody>
 </table>
-
+</body>
 </html>

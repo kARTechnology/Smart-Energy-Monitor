@@ -52,7 +52,7 @@ function do_mqtt_connect()
             },function(client) print("--subscribe success") end) 
             val={}    
             strength=wifi.sta.getrssi()
-            val.wifisignal=(math.abs(strength)/70)*100 ;
+            val.wifisignal=(math.abs(strength)/70)*100;
             val=sjson.encode(val) 
             print(val)
             m:publish("/v1.6/devices/sem", val, 0, 0, function(client) print("sent wifisignal: "..strength.." dBm") end) 
